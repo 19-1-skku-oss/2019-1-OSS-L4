@@ -1,5 +1,16 @@
 <div class="sticky-top sticky-top-offset">
-    <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
+
+    <h4 class="font-weight-bold spanborder"><span>Categories</span></h4>  
+    <ul class="list-categories">				
+        {% for category in site.categories %}               
+            <li>
+                <a class="text-dark" href="{{site.baseurl}}/categories.html">{{ category[0] }} ({{ category[1].size }})</a>  
+            </li>      
+        {% endfor %}   
+    </ul>
+
+    <!--
+    <h4 class="font-weight-bold spanborder"><span>Recent Posts</span></h4>  
     <ol class="list-featured">				
         {% for post in site.tags.featured %}                
             <li class="mb-4">
@@ -18,4 +29,5 @@
             </li>                
         {% endfor %}   
     </ol>
+    -->
 </div> 

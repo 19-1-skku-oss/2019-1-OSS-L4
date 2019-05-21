@@ -11,7 +11,7 @@ body {
 	min-height:400px;
 }
 .remove-site-content-margin {
-	margin-top:-30px;
+	margin-top:-30px !important;
 }
 img {
 	max-width:100%;
@@ -205,7 +205,7 @@ a.text-dark:hover {
 .navbar-brand {
 	margin-right:2rem;
 	font-size:1.55rem;
-    font-family:"Georgia","Times New Roman",serif;
+    font-family:"Montserrat", "NanumSquare", serif;
 }
 .dropdown-item {
 	font-weight:400;
@@ -297,7 +297,7 @@ a.text-dark:hover {
 		right:0;
 	}
     .jumbotron-home h1 {
-        font-family: Georgia,Times,"Times New Roman",serif;
+        font-family: "Montserrat", "NanumSquare", serif;
         font-size: 2.4rem;
         font-weight: 700;
         line-height: 1.1;
@@ -654,10 +654,9 @@ footer {
 article {
 	font-size:20px;
 	line-height:1.86;
-    font-family:Lora;
 }
 .article-headline {
-    font-family: Georgia,Times,"Times New Roman",serif;
+    font-family: "Montserrat", "NanumSquare", serif;
     font-size: 3.2rem;
     font-weight: 400;
     line-height: 1.15;
@@ -674,7 +673,7 @@ article blockquote {
 }
 article blockquote:before {
 	content:"“";
-	font-family:Georgia;
+	font-family: "Montserrat", "NanumSquare";
 	font-size:8rem;
 	margin:-1rem 2rem 0 -3.9rem;
 	position:absolute;
@@ -682,6 +681,7 @@ article blockquote:before {
 	float:left;
 	line-height:1;
 }
+/*
 article:first-letter {
 	float:left;
 	font-size:5em;
@@ -689,6 +689,8 @@ article:first-letter {
 	margin:0 .2em 0 0;
 	vertical-align:top;
 }
+*/
+
 article h1,article h2,article h3,article h4,article h5,article h6,article .h1,article .h2,article .h3,article .h4,article .h5,article .h6 {
 	margin-bottom:2rem;
 	margin-top:2rem;
@@ -708,10 +710,12 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 .alertbar img {
 	border-radius:2px;
 }
+
 .spanborder {
 	border-bottom:1px solid #e8f3ec;
 	margin-bottom:2rem;
 }
+
 .spanborder span {
 	border-bottom:1px solid rgba(0,0,0,0.44);
 	display:inline-block;
@@ -804,3 +808,43 @@ div.a2a_full_footer {display:none;}
 	 }
  }
  
+
+ .list-categories {
+	list-style-type: none;
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 32px;
+ }
+
+ .btn-wrb {
+	padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    background-color: rgba(255,255,255,0);
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    color: #ffffff;
+}
+
+.btn-wrb:hover {
+    color: white;
+}
+
+.btn-wrb:hover {
+	background-color: rgba(255,255,255,0.4);
+}
+
+.main-bg {
+	background-size: cover;
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	  ), url("https://insights.dice.com/wp-content/uploads/2018/08/shutterstock_1060094186.jpg");
+	text-align: center;
+	color: white;
+}
+
+.main-bg-text {
+	font-size: 18px;
+}

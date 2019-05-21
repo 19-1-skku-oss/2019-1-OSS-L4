@@ -14,7 +14,7 @@
 		</span>
 	</small>
 	<small class="text-muted">
-		{{ post.date | date: '%b %d, %Y' }}
+		{{ site.authors[post.author].name_kor }} {{ post.date | date: '%b %d, %Y' }}
 	</small>
 </div>
 {% if post.image %}

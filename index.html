@@ -1,5 +1,5 @@
 ---
-title: "Mundana Free Jekyll Theme"
+title: "Home"
 layout: default
 pagination:
     enabled: true
@@ -12,9 +12,28 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
 {% if page.url == "/" %}
     
     
+<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
+<div class="main-bg remove-site-content-margin jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+    <div class="pl-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-12 pt-6 pb-6 pr-lg-4 align-self-center">
+                <h1 class="mb-3">Team L4</h1>
+                <p class="mb-3 main-bg-text">
+                    2019-2 오픈소스소프트웨어 프로젝트 Team L4의 페이지 입니다. <br>Github Pages를 사용하여 호스팅되며, Team L4의 프로젝트 활동과 오픈소스에 관련된 지식들이 공유됩니다.
+                </p>
+                <a href="{{site.baseurl}}/introduction" class="btn-wrb">더 알아보기</a>
+            </div>
+            <!--
+            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
+            </div>
+            -->
+        </div>
+    </div>
+</div> 
     
+<h4 class="font-weight-bold spanborder"><span>Recent Posts</span></h4> 
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
-<div class="row remove-site-content-margin">
+<div class="row">
     
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
@@ -32,14 +51,14 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
     </p>
     <div>
         <small class="d-block text-muted">
-            In <span class="catlist">
+                <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
                 </span>                   
         </small>
         <small class="text-muted">
-            {{ latest_post.date | date: '%b %d, %Y' }}
+            {{ site.authors[latest_post.author].name_kor }} {{ latest_post.date | date: '%b %d, %Y' }}
         </small>
     </div>
     </div>
@@ -63,14 +82,14 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in second_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ second_post.date | date: '%b %d, %Y' }}
+                        {{ site.authors[second_post.author].name_kor }} {{ second_post.date | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
@@ -90,14 +109,14 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in third_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ third_post.date | date: '%b %d, %Y' }}
+                        {{ site.authors[third_post.author].name_kor }} {{ third_post.date | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
@@ -117,45 +136,21 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        <span class="catlist">
                         {% for category in fourth_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {{ fourth_post.date | date: '%b %d, %Y' }}
+                        {{ site.authors[fourth_post.author].name_kor }} {{ fourth_post.date | date: '%b %d, %Y' }}
                     </small>
                 </div>
             </div>
         
     </div>
     
-</div>
-    
-<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
-{% for post in site.posts %} 
-{% if post.tags contains "sticky" %}
-<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
-    <div class="pl-4 pr-0 h-100 tofront">
-        <div class="row justify-content-between">
-            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{post.title}}</h1>
-                <p class="mb-3 lead">
-                    {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
-                </p>
-                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
-            </div>
-            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
-            </div>
-        </div>
-    </div>
 </div> 
-{% endif %}
-{% endfor %}
-
-
-    
 
 
 {% endif %} <!--endif page url is / -->
@@ -168,7 +163,7 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
    
     <div class="col-md-8 main-loop">
         
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+        <h4 class="font-weight-bold spanborder"><span>All Posts</span></h4>
         
 
         {% for post in paginator.posts %}
