@@ -25,13 +25,14 @@ authors:
       bio:            "오픈소스소프트웨어 L4 팀장입니다. L4 Github 페이지를 관리하고 있습니다."
       email:          2680v4@gmail.com
       github:         2680v4
-    joontae:
-      name: joontae
-      name_kor: 김준태
-      avatar: /assets/images/jt.jpg
-      bio: "L4 팀원입니다"
-      email: woojoon1218@gmail.com
-      github: JTzzang
+
+    young:
+      name:           young
+      name_kor:       조영성
+      avatar:         /assets/images/avatar_young.jpg
+      bio:            "오픈소스소프트웨어 L4 팀원입니다."
+      email:          choys0401@naver.com
+      github:         choys0401	
     seunghyeon:
       name:           seunghyeon
       name_kor:       김승현
@@ -39,6 +40,22 @@ authors:
       bio:            "오픈소스소프트웨어 L4 member"
       email:          kim95175@gmail.com
       github:         kim95175
+
+     chaehyeon:
+      name:           chaehyeon
+      name_kor:       이채현
+      avatar:         /assets/images/8.jpg
+      bio:            L4의 팀원입니다.
+      email:          eyeoojo@gmail.com
+      github:         chyeon
+
+     joontae:
+      name: joontae
+      name_kor: 김준태
+      avatar: /assets/images/jt.jpg
+      bio: "L4 팀원입니다"
+      email: woojoon1218@gmail.com
+      github: JTzzang
 
 # Defaults
 defaults:
