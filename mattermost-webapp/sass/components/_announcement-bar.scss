@@ -1,0 +1,76 @@
+@charset 'UTF-8';
+
+.announcement-bar {
+    background-color: darken($primary-color, 5%);
+    color: $white;
+    padding: 2px 30px;
+    min-height: $announcement-bar-height;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    padding: 1px 30px;
+    max-height: $announcement-bar-height;
+
+    > span {
+        max-width: 100%;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    a {
+        color: inherit !important;
+        text-decoration: underline;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: inherit !important;
+        }
+
+        &.announcement-bar__close {
+            color: $white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 0 10px;
+            position: absolute;
+            right: 0;
+            text-decoration: none;
+            top: -2px;
+
+            &:hover {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    .fa-wrapper {
+        margin: 0 5px;
+    }
+
+    .resend-verification-wrapper:before {
+        content: "\00a0 ";
+    }
+}
+
+
+
+.announcement-bar-critical {
+    background-color: #B0171F;
+}
+
+.announcement-bar-developer {
+    background-color: purple;
+}
+
+.announcement-bar-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+}

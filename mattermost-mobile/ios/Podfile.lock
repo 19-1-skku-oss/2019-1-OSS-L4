@@ -1,0 +1,16 @@
+PODS:
+  - XCDYouTubeKit (2.7.1)
+
+DEPENDENCIES:
+  - XCDYouTubeKit (= 2.7.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - XCDYouTubeKit
+
+SPEC CHECKSUMS:
+  XCDYouTubeKit: c8567fd5cb388a3099fa26eee4b30df2a467847d
+
+PODFILE CHECKSUM: 63cb0d0aef536c8cbf15bf664fcfe31852a13dd1
+
+COCOAPODS: 1.5.3

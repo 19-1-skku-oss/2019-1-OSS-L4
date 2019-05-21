@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShowMoreButton should match, button snapshot 1`] = `
+<View
+  style={Object {}}
+>
+  <Text
+    style={Object {}}
+  >
+    +
+  </Text>
+  <FormattedText
+    defaultMessage="Show More"
+    id="post_info.message.show_more"
+    style={Object {}}
+  />
+</View>
+`;
+
+exports[`ShowMoreButton should match, button snapshot 2`] = `
+<View
+  style={Object {}}
+>
+  <Text
+    style={Object {}}
+  >
+    -
+  </Text>
+  <FormattedText
+    defaultMessage="Show Less"
+    id="post_info.message.show_less"
+    style={Object {}}
+  />
+</View>
+`;
+
+exports[`ShowMoreButton should match, full snapshot 1`] = `
+<View>
+  <LinearGradient
+    colors={
+      Array [
+        "rgba(255,255,255,0)",
+        "rgba(255,255,255,0.75)",
+        "#ffffff",
+      ]
+    }
+    end={
+      Object {
+        "x": 0.5,
+        "y": 1,
+      }
+    }
+    locations={
+      Array [
+        0,
+        0.7,
+        1,
+      ]
+    }
+    start={
+      Object {
+        "x": 0.5,
+        "y": 0,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": 50,
+        "position": "absolute",
+        "top": -50,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "position": "relative",
+        "top": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(61,60,64,0.2)",
+          "flex": 1,
+          "height": 1,
+          "marginRight": 10,
+        }
+      }
+    />
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[MockFunction]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "rgba(61,60,64,0.2)",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "height": 37,
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#2389d7",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "marginRight": 8,
+            }
+          }
+        >
+          +
+        </Text>
+        <FormattedText
+          defaultMessage="Show More"
+          id="post_info.message.show_more"
+          style={
+            Object {
+              "color": "#2389d7",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        />
+      </View>
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(61,60,64,0.2)",
+          "flex": 1,
+          "height": 1,
+          "marginLeft": 10,
+        }
+      }
+    />
+  </View>
+</View>
+`;

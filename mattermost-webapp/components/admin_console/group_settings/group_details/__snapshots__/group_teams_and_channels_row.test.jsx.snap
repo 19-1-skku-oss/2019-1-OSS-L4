@@ -1,0 +1,468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/admin_console/group_settings/group_details/GroupTeamsAndChannelsRow should match snapshot, for private-channel 1`] = `
+<div
+  className="group-teams-and-channels-row"
+>
+  <ConfirmModal
+    confirmButtonClass="btn btn-primary"
+    confirmButtonText={
+      <FormattedMessage
+        defaultMessage="Yes, Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_button"
+        values={Object {}}
+      />
+    }
+    message={
+      <FormattedMessage
+        defaultMessage="Removing this membership will prevent future users in this group from being added to the 'Test private-channel' channel.  Please note this action will not remove the existing group users from the 'Test private-channel' channel."
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_body"
+        values={
+          Object {
+            "displayType": "channel",
+            "name": "Test private-channel",
+          }
+        }
+      />
+    }
+    modalClass=""
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    show={false}
+    title={
+      <FormattedMessage
+        defaultMessage="Remove Membership from the 'Test private-channel' channel?"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_header"
+        values={
+          Object {
+            "displayType": "channel",
+            "name": "Test private-channel",
+          }
+        }
+      />
+    }
+  />
+  <div
+    className="arrow-icon"
+  />
+  <div
+    className="team-icon"
+  />
+  <div
+    className="channel-icon"
+  >
+    <LockIcon
+      className="icon icon__lock"
+    />
+  </div>
+  <div
+    className="name"
+  >
+    Test private-channel
+  </div>
+  <div
+    className="remove"
+  >
+    <button
+      className="btn btn-link"
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove"
+        values={Object {}}
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`components/admin_console/group_settings/group_details/GroupTeamsAndChannelsRow should match snapshot, for private-team 1`] = `
+<div
+  className="group-teams-and-channels-row"
+>
+  <ConfirmModal
+    confirmButtonClass="btn btn-primary"
+    confirmButtonText={
+      <FormattedMessage
+        defaultMessage="Yes, Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_button"
+        values={Object {}}
+      />
+    }
+    message={
+      <FormattedMessage
+        defaultMessage="Removing this membership will prevent future users in this group from being added to the 'Test private-team' team.  Please note this action will not remove the existing group users from the 'Test private-team' team."
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_body"
+        values={
+          Object {
+            "displayType": "team",
+            "name": "Test private-team",
+          }
+        }
+      />
+    }
+    modalClass=""
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    show={false}
+    title={
+      <FormattedMessage
+        defaultMessage="Remove Membership from the 'Test private-team' team?"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_header"
+        values={
+          Object {
+            "displayType": "team",
+            "name": "Test private-team",
+          }
+        }
+      />
+    }
+  />
+  <div
+    className="arrow-icon"
+  />
+  <div
+    className="team-icon team-icon-private"
+  >
+    <span
+      className="fa-stack fa-2x"
+    >
+      <i
+        className="fa fa-circle-thin fa-stack-2x"
+      />
+      <i
+        className="fa fa-lock fa-stack-1x"
+      />
+    </span>
+  </div>
+  <div
+    className="name"
+  >
+    Test private-team
+  </div>
+  <div
+    className="remove"
+  >
+    <button
+      className="btn btn-link"
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove"
+        values={Object {}}
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`components/admin_console/group_settings/group_details/GroupTeamsAndChannelsRow should match snapshot, for public-channel 1`] = `
+<div
+  className="group-teams-and-channels-row"
+>
+  <ConfirmModal
+    confirmButtonClass="btn btn-primary"
+    confirmButtonText={
+      <FormattedMessage
+        defaultMessage="Yes, Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_button"
+        values={Object {}}
+      />
+    }
+    message={
+      <FormattedMessage
+        defaultMessage="Removing this membership will prevent future users in this group from being added to the 'Test public-channel' channel.  Please note this action will not remove the existing group users from the 'Test public-channel' channel."
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_body"
+        values={
+          Object {
+            "displayType": "channel",
+            "name": "Test public-channel",
+          }
+        }
+      />
+    }
+    modalClass=""
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    show={false}
+    title={
+      <FormattedMessage
+        defaultMessage="Remove Membership from the 'Test public-channel' channel?"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_header"
+        values={
+          Object {
+            "displayType": "channel",
+            "name": "Test public-channel",
+          }
+        }
+      />
+    }
+  />
+  <div
+    className="arrow-icon"
+  />
+  <div
+    className="team-icon"
+  />
+  <div
+    className="channel-icon"
+  >
+    <GlobeIcon
+      className="icon icon__globe"
+    />
+  </div>
+  <div
+    className="name"
+  >
+    Test public-channel
+  </div>
+  <div
+    className="remove"
+  >
+    <button
+      className="btn btn-link"
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove"
+        values={Object {}}
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`components/admin_console/group_settings/group_details/GroupTeamsAndChannelsRow should match snapshot, for public-team 1`] = `
+<div
+  className="group-teams-and-channels-row"
+>
+  <ConfirmModal
+    confirmButtonClass="btn btn-primary"
+    confirmButtonText={
+      <FormattedMessage
+        defaultMessage="Yes, Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_button"
+        values={Object {}}
+      />
+    }
+    message={
+      <FormattedMessage
+        defaultMessage="Removing this membership will prevent future users in this group from being added to the 'Test public-team' team.  Please note this action will not remove the existing group users from the 'Test public-team' team."
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_body"
+        values={
+          Object {
+            "displayType": "team",
+            "name": "Test public-team",
+          }
+        }
+      />
+    }
+    modalClass=""
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    show={false}
+    title={
+      <FormattedMessage
+        defaultMessage="Remove Membership from the 'Test public-team' team?"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_header"
+        values={
+          Object {
+            "displayType": "team",
+            "name": "Test public-team",
+          }
+        }
+      />
+    }
+  />
+  <div
+    className="arrow-icon"
+  />
+  <div
+    className="team-icon team-icon-public"
+  >
+    <i
+      className="fa fa-circle-o-notch"
+    />
+  </div>
+  <div
+    className="name"
+  >
+    Test public-team
+  </div>
+  <div
+    className="remove"
+  >
+    <button
+      className="btn btn-link"
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove"
+        values={Object {}}
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`components/admin_console/group_settings/group_details/GroupTeamsAndChannelsRow should match snapshot, when has children 1`] = `
+<div
+  className="group-teams-and-channels-row has-clidren"
+>
+  <ConfirmModal
+    confirmButtonClass="btn btn-primary"
+    confirmButtonText={
+      <FormattedMessage
+        defaultMessage="Yes, Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_button"
+        values={Object {}}
+      />
+    }
+    message={
+      <FormattedMessage
+        defaultMessage="Removing this membership will prevent future users in this group from being added to the 'Test team with children' team.  Please note this action will not remove the existing group users from the 'Test team with children' team."
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_body"
+        values={
+          Object {
+            "displayType": "team",
+            "name": "Test team with children",
+          }
+        }
+      />
+    }
+    modalClass=""
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    show={false}
+    title={
+      <FormattedMessage
+        defaultMessage="Remove Membership from the 'Test team with children' team?"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_header"
+        values={
+          Object {
+            "displayType": "team",
+            "name": "Test team with children",
+          }
+        }
+      />
+    }
+  />
+  <div
+    className="arrow-icon"
+  >
+    <i
+      className="fa fa-caret-right open"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="team-icon team-icon-public"
+  >
+    <i
+      className="fa fa-circle-o-notch"
+    />
+  </div>
+  <div
+    className="name"
+  >
+    Test team with children
+  </div>
+  <div
+    className="remove"
+  >
+    <button
+      className="btn btn-link"
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove"
+        values={Object {}}
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`components/admin_console/group_settings/group_details/GroupTeamsAndChannelsRow should match snapshot, when has children and is collapsed 1`] = `
+<div
+  className="group-teams-and-channels-row has-clidren collapsed"
+>
+  <ConfirmModal
+    confirmButtonClass="btn btn-primary"
+    confirmButtonText={
+      <FormattedMessage
+        defaultMessage="Yes, Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_button"
+        values={Object {}}
+      />
+    }
+    message={
+      <FormattedMessage
+        defaultMessage="Removing this membership will prevent future users in this group from being added to the 'Test team with children' team.  Please note this action will not remove the existing group users from the 'Test team with children' team."
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_body"
+        values={
+          Object {
+            "displayType": "team",
+            "name": "Test team with children",
+          }
+        }
+      />
+    }
+    modalClass=""
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    show={false}
+    title={
+      <FormattedMessage
+        defaultMessage="Remove Membership from the 'Test team with children' team?"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove.confirm_header"
+        values={
+          Object {
+            "displayType": "team",
+            "name": "Test team with children",
+          }
+        }
+      />
+    }
+  />
+  <div
+    className="arrow-icon"
+  >
+    <i
+      className="fa fa-caret-right"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="team-icon team-icon-public"
+  >
+    <i
+      className="fa fa-circle-o-notch"
+    />
+  </div>
+  <div
+    className="name"
+  >
+    Test team with children
+  </div>
+  <div
+    className="remove"
+  >
+    <button
+      className="btn btn-link"
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Remove"
+        id="admin.group_settings.group_details.group_teams_and_channels_row.remove"
+        values={Object {}}
+      />
+    </button>
+  </div>
+</div>
+`;

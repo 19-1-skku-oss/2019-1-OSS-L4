@@ -1,0 +1,43 @@
+@charset 'UTF-8';
+
+.dropdown-menu {
+    @include border-radius(4px);
+
+    &.colorpicker {
+        min-width: 125px;
+        z-index: 2500;
+    }
+
+    .dropdown-item__plugin {
+        display: flex;
+        justify-content: center;
+
+        &:empty {
+            display: none;
+        }
+    }
+}
+
+.open {
+    > .dropdown-menu__content {
+        display: block;
+
+        > .dropdown-menu {
+            display: block;
+        }
+    }
+}
+
+.dropdown-menu__content {
+    display: none;
+}
+
+.dropdown-menu__icons {
+    li {
+        .fa {
+            width: 25px;
+            text-align: center;
+            margin-left: -5px;
+        }
+    }
+}

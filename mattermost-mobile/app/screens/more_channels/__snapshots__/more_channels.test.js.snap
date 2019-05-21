@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreChannels should match snapshot 1`] = `
+<ForwardRef(forwardConnectRef)>
+  <Connect(StatusBar) />
+  <React.Fragment>
+    <View
+      style={
+        Object {
+          "marginVertical": 5,
+        }
+      }
+    >
+      <SearchBarIos
+        autoCapitalize="none"
+        backgroundColor="transparent"
+        blurOnSubmit={true}
+        inputHeight={33}
+        inputStyle={
+          Object {
+            "backgroundColor": "rgba(61,60,64,0.2)",
+            "color": "#3d3c40",
+            "fontSize": 15,
+          }
+        }
+        leftComponent={null}
+        onBlur={[Function]}
+        onCancelButtonPress={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSearchButtonPress={[Function]}
+        onSelectionChange={[Function]}
+        placeholderTextColor="rgba(61,60,64,0.5)"
+        searchIconCollapsedMargin={10}
+        searchIconExpandedMargin={10}
+        tintColorDelete="rgba(61,60,64,0.5)"
+        tintColorSearch="rgba(61,60,64,0.5)"
+        titleCancelColor="#3d3c40"
+        value=""
+      />
+    </View>
+    <CustomList
+      data={
+        Array [
+          Object {
+            "display_name": "display_name",
+            "id": "id",
+            "name": "name",
+          },
+        ]
+      }
+      extraData={true}
+      listType="flat"
+      loading={true}
+      loadingComponent={
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "height": 70,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <FormattedText
+            defaultMessage="Loading Channels..."
+            id="mobile.loading_channels"
+            style={
+              Object {
+                "color": "rgba(61,60,64,0.6)",
+              }
+            }
+          />
+        </View>
+      }
+      noResults={null}
+      onLoadMore={[Function]}
+      onRowPress={[Function]}
+      renderItem={[Function]}
+      shouldRenderSeparator={true}
+      showNoResults={true}
+      theme={
+        Object {
+          "awayIndicator": "#ffbc42",
+          "buttonBg": "#166de0",
+          "buttonColor": "#ffffff",
+          "centerChannelBg": "#ffffff",
+          "centerChannelColor": "#3d3c40",
+          "codeTheme": "github",
+          "dndIndicator": "#f74343",
+          "errorTextColor": "#fd5960",
+          "linkColor": "#2389d7",
+          "mentionBj": "#ffffff",
+          "mentionColor": "#145dbf",
+          "mentionHighlightBg": "#ffe577",
+          "mentionHighlightLink": "#166de0",
+          "newMessageSeparator": "#ff8800",
+          "onlineIndicator": "#06d6a0",
+          "sidebarBg": "#145dbf",
+          "sidebarHeaderBg": "#1153ab",
+          "sidebarHeaderTextColor": "#ffffff",
+          "sidebarText": "#ffffff",
+          "sidebarTextActiveBorder": "#579eff",
+          "sidebarTextActiveColor": "#ffffff",
+          "sidebarTextHoverBg": "#4578bf",
+          "sidebarUnreadText": "#ffffff",
+          "type": "Mattermost",
+        }
+      }
+    />
+  </React.Fragment>
+</ForwardRef(forwardConnectRef)>
+`;

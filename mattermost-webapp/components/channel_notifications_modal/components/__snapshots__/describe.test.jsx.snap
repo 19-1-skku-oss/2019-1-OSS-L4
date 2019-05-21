@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/channel_notifications_modal/NotificationSection should match snapshot, on DESKTOP/PUSH & ALL 1`] = `
+<FormattedMessage
+  defaultMessage="For all activity"
+  id="channel_notifications.allActivity"
+  values={Object {}}
+/>
+`;
+
+exports[`components/channel_notifications_modal/NotificationSection should match snapshot, on MARK_UNREAD & ALL 1`] = `
+<FormattedMessage
+  defaultMessage="Off"
+  id="channel_notifications.muteChannel.off.title"
+  values={Object {}}
+/>
+`;
+
+exports[`components/channel_notifications_modal/NotificationSection should match snapshot, on MENTION 1`] = `
+<FormattedMessage
+  defaultMessage="Only for mentions"
+  id="channel_notifications.onlyMentions"
+  values={Object {}}
+/>
+`;
+
+exports[`components/channel_notifications_modal/NotificationSection should match snapshot, on NONE 1`] = `
+<FormattedMessage
+  defaultMessage="Never"
+  id="channel_notifications.never"
+  values={Object {}}
+/>
+`;
+
+exports[`components/channel_notifications_modal/NotificationSection should match snapshot, on global DEFAULT 1`] = `
+<Fragment>
+  <FormattedMessage
+    defaultMessage="Global default"
+    id="channel_notifications.globalDefault"
+    values={Object {}}
+  />
+  <span>
+     (
+  </span>
+  <FormattedMessage
+    defaultMessage="default"
+    id="channel_notifications.levels.default"
+    values={Object {}}
+  />
+  <span>
+    )
+  </span>
+</Fragment>
+`;

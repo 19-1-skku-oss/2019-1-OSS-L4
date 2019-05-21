@@ -1,0 +1,86 @@
+@charset 'UTF-8';
+
+html,
+body {
+    height: 100%;
+
+    &.sticky {
+        height: auto;
+        overflow: auto;
+    }
+}
+
+body {
+    background: $bg--gray;
+    position: relative;
+    width: 100%;
+
+    &.announcement-bar--fixed {
+        padding-top: $announcement-bar-height;
+    }
+}
+
+.sticky {
+    background: $white;
+
+    > .channel-view {
+        height: 100vh;
+        padding: 0 15px;
+        overflow: auto;
+    }
+
+    .inner-wrap {
+        width: 100%;
+
+        > .row {
+            &.content {
+                min-height: calc(100vh - 89px);
+
+                @media (max-width: 768px) {
+                    min-height: calc(100vh - 187px);
+                }
+            }
+        }
+    }
+}
+
+.help-page {
+    overflow: hidden;
+    padding: 3em 0;
+}
+
+.inner-wrap {
+    height: 100%;
+
+    &.sticky {
+        overflow: auto;
+    }
+
+    > .row {
+        &.main {
+            height: 100%;
+            position: relative;
+        }
+    }
+}
+
+.container-fluid {
+    @include legacy-pie-clearfix;
+    height: 100%;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+}
+
+.channel-view {
+    @include clearfix;
+    height: 100%;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+
+    &.rounded {
+        @include border-radius(100%);
+    }
+}

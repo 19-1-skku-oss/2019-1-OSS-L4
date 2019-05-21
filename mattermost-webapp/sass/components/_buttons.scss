@@ -1,0 +1,94 @@
+@charset 'UTF-8';
+
+button {
+    &.style--none {
+        background: transparent;
+        border: none;
+        padding: 0;
+
+        &:focus {
+            outline: 0;
+        }
+
+        &.btn {
+            padding: 6px 12px;
+        }
+
+        &.btn--block {
+            text-align: left;
+            width: 100%;
+        }
+
+        &:hover,
+        &:active {
+            text-decoration: none;
+        }
+    }
+}
+
+.btn {
+    @include single-transition(all, .15s, ease);
+    @include border-radius($border-rad);
+
+    &.btn-primary {
+        background: $primary-color;
+        border-color: transparent;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background: $primary-color--hover;
+        }
+    }
+
+    &.btn-danger {
+        color: $white;
+
+        .app__body & {
+            color: $white;
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: $white;
+            }
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $white;
+        }
+    }
+
+    &.btn-transparent {
+        background: transparent;
+        border: none;
+        padding: 7px 12px;
+    }
+
+    &.btn-inactive {
+        background: $light-gray;
+        border-color: transparent;
+        color: $white;
+    }
+
+    .fa {
+        margin-right: 3px;
+
+        &.margin-right {
+            margin-right: 6px;
+        }
+
+        &.margin-left {
+            margin-left: 6px;
+        }
+    }
+
+    &.btn-link {
+        &:active,
+        &:focus {
+            outline: none;
+        }
+    }
+}
