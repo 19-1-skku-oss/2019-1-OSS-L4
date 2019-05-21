@@ -21,10 +21,11 @@ authors:
     woolim:
       name:           woolim
       name_kor:       조우림
-      avatar:         /assets/images/avatar1.jpg
+      avatar:         /assets/images/woolim.png
       bio:            "오픈소스소프트웨어 L4 팀장입니다. L4 Github 페이지를 관리하고 있습니다."
       email:          2680v4@gmail.com
       github:         2680v4
+<<<<<<< HEAD
     young:
       name:           young
       name_kor:       조영성
@@ -34,6 +35,15 @@ authors:
       github:         choys0401	
 
  
+=======
+    seunghyeon:
+      name:           seunghyeon
+      name_kor:       김승현
+      avatar:         /assets/images/seunghyeon.jpg
+      bio:            "오픈소스소프트웨어 L4 member"
+      email:          kim95175@gmail.com
+      github:         kim95175
+>>>>>>> 5b466b6b9f8a7931ee0c10f153a2c930abf7cb20
 # Defaults
 defaults:
 
