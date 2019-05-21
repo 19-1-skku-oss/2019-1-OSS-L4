@@ -25,7 +25,13 @@ authors:
       bio:            "오픈소스소프트웨어 L4 팀장입니다. L4 Github 페이지를 관리하고 있습니다."
       email:          2680v4@gmail.com
       github:         2680v4
- 
+    seunghyeon:
+      name:           seunghyeon
+      name_kor:       김승현
+      avatar:         /assets/images/seunghyeon.jpg
+      bio:            "오픈소스소프트웨어 L4 member"
+      email:          kim95175@gmail.com
+      github:         kim95175
 # Defaults
 defaults:
 
