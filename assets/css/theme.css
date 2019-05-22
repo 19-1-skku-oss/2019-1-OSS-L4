@@ -848,3 +848,12 @@ div.a2a_full_footer {display:none;}
 .main-bg-text {
 	font-size: 18px;
 }
+
+@media (max-width: 768px) {
+	.main-bg .pl-4 {
+		padding-left: 0px !important;
+	}
+	.main-bg-text {
+		font-size: 13px;
+	}
+}
