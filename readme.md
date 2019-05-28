@@ -15,7 +15,7 @@ software3.skku@gamil.com / JTzzang
 
 이채현 2018312543  
 eyeoojo@gmail.com / chyeon  
-이슈 리포트
+이슈 리포트 및 번역
 
 조영성 2014312738  
 choys0401@naver.com / choys0401  
