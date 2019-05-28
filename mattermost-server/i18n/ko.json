@@ -5016,71 +5016,71 @@
   },
   {
     "id": "model.user.is_valid.email.app_error",
-    "translation": "Please enter a valid email address."
+    "translation": "유효한 이메일 주소를 입력해 주십시오."
   },
   {
     "id": "model.user.is_valid.pwd.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters."
+    "translation": "비밀번호는 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_lowercase.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one lowercase letter."
+    "translation": "비밀번호는 영소문자를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_lowercase_number.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one lowercase letter and at least one number."
+    "translation": "비밀번호는 숫자 및 영소문자를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_lowercase_number_symbol.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one lowercase letter, at least one number, and at least one symbol (e.g. \"~!@#$%^&*()\")."
+    "translation": "비밀번호는 숫자, 영소문자 및 특수문자(예를 들어, \"~!@#$%^&*()\")를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_lowercase_symbol.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one lowercase letter and at least one symbol (e.g. \"~!@#$%^&*()\")."
+    "translation": "비밀번호는 영소문자 및 특수문자(예를 들어, \"~!@#$%^&*()\")를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_lowercase_uppercase.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one lowercase letter and at least one uppercase letter."
+    "translation": "비밀번호는 영소문자 및 대문자를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_lowercase_uppercase_number.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one lowercase letter, at least one uppercase letter, and at least one number."
+    "translation": "비밀번호는 숫자, 영소문자 및 대문자를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_lowercase_uppercase_number_symbol.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one lowercase letter, at least one uppercase letter, at least one number, and at least one symbol (e.g. \"~!@#$%^&*()\")."
+    "translation": "비밀번호는 숫자, 영소문자, 대문자 및 특수문자(예를 들어, \"~!@#$%^&*()\")를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_lowercase_uppercase_symbol.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one lowercase letter, at least one uppercase letter, and at least one symbol (e.g. \"~!@#$%^&*()\")."
+    "translation": "비밀번호는 영소문자, 대문자 및 특수문자(예를 들어, \"~!@#$%^&*()\")를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_number.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one number."
+    "translation": "비밀번호는 숫자를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_number_symbol.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one number and at least one symbol (e.g. \"~!@#$%^&*()\")."
+    "translation": "비밀번호는 숫자와 특수문자(예를 들어, \"~!@#$%^&*()\")를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_symbol.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one symbol (e.g. \"~!@#$%^&*()\")."
+    "translation": "비밀번호는 특수문자(예를 들어, \"~!@#$%^&*()\")를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_uppercase.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one uppercase letter."
+    "translation": "비밀번호는 영대문자를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_uppercase_number.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one uppercase letter and at least one number."
+    "translation": "비밀번호는 숫자 및 영대문자를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_uppercase_number_symbol.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one uppercase letter, at least one number, and at least one symbol (e.g. \"~!@#$%^&*()\")."
+    "translation": "비밀번호는 숫자, 영대문자 및 특수문자(예를 들어, \"~!@#$%^&*()\")를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.pwd_uppercase_symbol.app_error",
-    "translation": "Your password must contain at least {{.Min}} characters made up of at least one uppercase letter and at least one symbol (e.g. \"~!@#$%^&*()\")."
+    "translation": "비밀번호는 영대문자 및 특수문자(예를 들어, \"~!@#$%^&*()\")를 포함하여 {{.Min}}자 이상이어야 합니다."
   },
   {
     "id": "model.user.is_valid.username.app_error",
