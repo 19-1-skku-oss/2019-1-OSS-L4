@@ -3,7 +3,7 @@
 # 팀 구성원
 조우림(팀장) 2017312860  
 2680v4@gmail.com / jkl5616  
-팀장. 팀 홈페이지 코드 관리, 팀원들 참여 상황 관리, 코드 기여
+팀장. 팀 홈페이지 코드 관리, 팀원들 참여 상황 관리, Python 또는 자바스크립트 코드 기여
 
 김승현 2014310279  
 kim95175@gmail.com / kim95175  
@@ -49,7 +49,7 @@ Mattermost 관련 내용은 해당 두 글에서 참조하였습니다.
 [https://blog.cometkim.kr/posts/mattermost-contribution/how-i-grow-up-with-mattermost-community/](https://blog.cometkim.kr/posts/mattermost-contribution/how-i-grow-up-with-mattermost-community/)  
 
 # contribute guide
-[https://developers.mattermost.com/contribute/getting-started/]
+https://developers.mattermost.com/contribute/getting-started/
 
 # mattermost github
-[https://github.com/mattermost/]
+https://github.com/mattermost/
