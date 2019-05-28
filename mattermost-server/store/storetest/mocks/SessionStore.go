@@ -51,15 +51,15 @@ func (_m *SessionStore) Get(sessionIdOrToken string) store.StoreChannel {
 }
 
 // GetSessions provides a mock function with given fields: userId
-func (_m *SessionStore) GetSessions(userId string) store.StoreChannel {
+func (_m *SessionStore) GetSessions(userId string) *model.AppError {
 	ret := _m.Called(userId)
 
-	var r0 store.StoreChannel
-	if rf, ok := ret.Get(0).(func(string) store.StoreChannel); ok {
+	var r0 *model.AppError
+	if rf, ok := ret.Get(0).(func(string) *model.AppError); ok {
 		r0 = rf(userId)
 	} else {
 		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(store.StoreChannel)
+			r0 = ret.Get(0).(*model.AppError)
 		}
 	}
 
