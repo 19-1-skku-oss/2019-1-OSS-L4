@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "MatterMost 이슈 확인을 통한 Contribution 시작하기, 그리고 Pull Request"
+categories: [ Code Contribution, Pull Request ]
+image: "images/2019-05-28-mm-15303-15304/issue.png"
+author: woolim
+---
+# 나에게 맞는 Issue 찾기
+Mattermost 프로젝트의 경우, Issue에 대한 다양한 Label이 있어 나의 개발 pool에 맞는 이슈를 찾아서 쉽게 Contribution 할 수 있습니다.  
+대표적으로, `Up For Grabs` 라벨이 존재하는데, 이는 해당 이슈를 아직 담당하지 않을 사람이 나타나지 않았다는 것을 뜻합니다.  
+또한, 이슈 해결시 필요한 개발 영역을 나타내는 라벨인 `Tech/Go`, `Tech/ReactJS`, 난이도를 나타내는 라벨인 `Difficutly/1:Easy`, `Difficulty/3:Easy`등 다양한 라벨이 존재하기 때문에 쉽게 Contribution을 시작할 수 있습니다.  
+
+# 해당 Issue 해결하기
+![image](/2019-1-OSS-L4/images/2019-05-28-mm-15303-15304/issue2.png)  
+Contribution 하고 싶은 이슈를 Label 필터링을 통해 찾고, 이슈의 comment를 확인합니다. comment는 Implementation 방법, 버그일 경우 재현 가능한 방법까지 이슈를 해결하기 위한 방법과, 주의 사항등 자세한 정보를 알려줍니다.  
+해당 내용을 참고해서 코드를 개선한 후, fork한 자신의 Repository에 커밋을 하면 Pull Request를 날릴 수 있게 됩니다.  
+
+# Pull Request 날리기
+![image](/2019-1-OSS-L4/images/2019-05-28-mm-15303-15304/pr.png)  
+MatterMost 프로젝트의 경우, Pull Request Form이 존재해서 해당 Form의 내용을 위와 같이 채워넣으면 됩니다.  
+모바일, 서버, 웹앱등 프로젝트마다 다르긴 하지만 보통 해당 Pull Request에 대한 요약, Ticket Link등을 요구합니다.  
+
+# Code Review 
+![image](/2019-1-OSS-L4/images/2019-05-28-mm-15303-15304/codereview.png)  
+Pull Request의 commit에 문제나 고칠점등이 있다면, 위와 같이 프로젝트 Maintainer가 Code Review를 통해 개선해야 할 점을 알려줍니다.  
+이때 Pull Request의 상태는 Changes Requested로 변경되며, 개선할 점을 fork한 repository에 반영하면 Pull Request에도 그대로 반영됩니다.  
+
+# Merge
+![image](/2019-1-OSS-L4/images/2019-05-28-mm-15303-15304/merge.png)  
+Pull Request에 문제가 없거나 Maintainer가 요구한 개선 사항이 전부 완료되면, 해당 Pull Request는 master 브랜치에 merge가 되고, 프로젝트에 나의 코드가 그대로 반영됩니다.  
+현재까지 2개의 Pull Request가 프로젝트에 반영되었고, 2개의 Pull Request는 Review 상태에 있습니다.  
+팀원 전부 최소 1개의 Pull Request를 프로젝트에 merge하는 것을 목표로 할 예정입니다. 
