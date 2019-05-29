@@ -92,7 +92,11 @@ func (a *App) GetSession(token string) (*model.Session, *model.AppError) {
 }
 
 func (a *App) GetSessions(userId string) ([]*model.Session, *model.AppError) {
+<<<<<<< HEAD
 	err := Srv.Store.Session().GetSessions(userId)
+=======
+	err := <-Srv.Store.Session().GetSessions(userId)
+>>>>>>> d2d817627096a0c63747675bc5e82d1f531b4ebe
 	if err != nil {
 		return nil, err
 	}

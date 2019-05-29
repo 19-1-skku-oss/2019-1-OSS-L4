@@ -118,6 +118,7 @@ func (me SqlSessionStore) GetSessions(userId string) *model.AppError{
 		result.Data = sessions
 	}
 
+<<<<<<< HEAD
 	rtcs := <-tcs 
 	if rtcs.Err != nil {
 		return model.NewAppError("SqlSessionStore.GetSessions", "store.sql_session.get_sessions.app_error", nil, rtcs.Err.Error(), http.StatusInternalServerError)
@@ -134,6 +135,21 @@ func (me SqlSessionStore) GetSessions(userId string) *model.AppError{
 	}
 	
 	return session
+=======
+	if rtcs := <-tcs; rtcs.Err != nil {
+		return model.NewAppError("SqlSessionStore.GetSessions", "store.sql_session.get_sessions.app_error", nil, rtcs.Err.Error(), http.StatusInternalServerError)
+	} else {
+		for _, session := range sessions {
+			tempMembers := rtcs.Data.([]*model.TeamMember)
+			session.TeamMembers = make([]*model.TeamMember, 0, len(tempMembers))
+			for _, tm := range tempMembers {
+				if tm.DeleteAt == 0 {
+					session.TeamMembers = append(session.TeamMembers, tm)
+				}
+			}
+		}
+	}	
+>>>>>>> d2d817627096a0c63747675bc5e82d1f531b4ebe
 }
 
 func (me SqlSessionStore) GetSessionsWithActiveDeviceIds(userId string) store.StoreChannel {
