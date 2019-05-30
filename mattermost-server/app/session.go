@@ -92,21 +92,24 @@ func (a *App) GetSession(token string) (*model.Session, *model.AppError) {
 }
 
 func (a *App) GetSessions(userId string) ([]*model.Session, *model.AppError) {
-	result := <-a.Srv.Store.Session().GetSessions(userId)
-	if result.Err != nil {
-		return nil, result.Err
+<<<<<<< HEAD
+	err := Srv.Store.Session().GetSessions(userId)
+=======
+	err := <-Srv.Store.Session().GetSessions(userId)
+>>>>>>> d2d817627096a0c63747675bc5e82d1f531b4ebe
+	if err != nil {
+		return nil, err
 	}
 	return result.Data.([]*model.Session), nil
 
 }
 
 func (a *App) RevokeAllSessions(userId string) *model.AppError {
-	result := <-a.Srv.Store.Session().GetSessions(userId)
-	if result.Err != nil {
-		return result.Err
+	err := a.Srv.Store.Session().GetSessions(userId)
+	if err != nil {
+		return err
 	}
-	sessions := result.Data.([]*model.Session)
-
+	
 	for _, session := range sessions {
 		if session.IsOAuth {
 			a.RevokeAccessToken(session.Token)
@@ -162,7 +165,7 @@ func (a *App) SessionCacheLength() int {
 }
 
 func (a *App) RevokeSessionsForDeviceId(userId string, deviceId string, currentSessionId string) *model.AppError {
-	result := <-a.Srv.Store.Session().GetSessions(userId)
+	result := a.Srv.Store.Session().GetSessions(userId)
 	if result.Err != nil {
 		return result.Err
 	}

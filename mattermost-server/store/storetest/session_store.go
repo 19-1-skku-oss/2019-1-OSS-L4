@@ -60,8 +60,8 @@ func testSessionGet(t *testing.T, ss store.Store) {
 		}
 	}
 
-	if rs2 := (<-ss.Session().GetSessions(s1.UserId)); rs2.Err != nil {
-		t.Fatal(rs2.Err)
+	if err := (<-ss.Session().GetSessions(s1.UserId)); err != nil {
+		t.Fatal(err)
 	} else {
 		if len(rs2.Data.([]*model.Session)) != 3 {
 			t.Fatal("should match len")
