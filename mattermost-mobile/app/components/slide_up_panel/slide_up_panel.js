@@ -222,9 +222,6 @@ export default class SlideUpPanel extends PureComponent {
     };
 
     render() {
-        console.log('SlideUpPanel render');
-        console.log(this.props.marginFromTop);
-
         const {children, header} = this.props;
         const {lastSnap} = this.state;
         const translateStyle = {
