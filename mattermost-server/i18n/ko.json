@@ -2768,39 +2768,39 @@
   },
   {
     "id": "app.import.validate_channel_import_data.header_length.error",
-    "translation": "Channel header is too long."
+    "translation": "채널 헤더가 너무 깁니다."
   },
   {
     "id": "app.import.validate_channel_import_data.name_characters.error",
-    "translation": "Channel name contains invalid characters."
+    "translation": "채널 이름에 유효하지 않은 문자가 포함되어 있습니다."
   },
   {
     "id": "app.import.validate_channel_import_data.name_length.error",
-    "translation": "Channel name is too long."
+    "translation": "채널 이름이 너무 깁니다."
   },
   {
     "id": "app.import.validate_channel_import_data.name_missing.error",
-    "translation": "Missing required channel property: name"
+    "translation": "채널 속성에 빠진 항목이 있습니다: 이름"
   },
   {
     "id": "app.import.validate_channel_import_data.purpose_length.error",
-    "translation": "Channel purpose is too long."
+    "translation": "채널 목적이 너무 깁니다."
   },
   {
     "id": "app.import.validate_channel_import_data.scheme_invalid.error",
-    "translation": "Invalid scheme name for channel."
+    "translation": "채널의 스킴 이름이 유효하지 않습니다."
   },
   {
     "id": "app.import.validate_channel_import_data.team_missing.error",
-    "translation": "Missing required channel property: team"
+    "translation": "채널 속성에 빠진 항목이 있습니다: 팀"
   },
   {
     "id": "app.import.validate_channel_import_data.type_invalid.error",
-    "translation": "Channel type is invalid."
+    "translation": "채널 타입이 유효하지 않습니다."
   },
   {
     "id": "app.import.validate_channel_import_data.type_missing.error",
-    "translation": "Missing required channel property: type."
+    "translation": "채널 속성에 빠진 항목이 있습니다: 타입"
   },
   {
     "id": "app.import.validate_direct_channel_import_data.header_length.error",
