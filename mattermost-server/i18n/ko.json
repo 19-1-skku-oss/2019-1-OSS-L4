@@ -2504,15 +2504,15 @@
   },
   {
     "id": "api.user.verify_email.broken_token.app_error",
-    "translation": "Bad verify email token type."
+    "translation": "잘못된 이메일 토큰 타입입니다."
   },
   {
     "id": "api.user.verify_email.link_expired.app_error",
-    "translation": "The email verification link has expired."
+    "translation": "만료된 이메일 인증 링크입니다."
   },
   {
     "id": "api.user.verify_email.token_parse.error",
-    "translation": "Failed to parse token data from email verification"
+    "translation": "이메일 인증에서 토큰 데이터 분석에 실패했습니다."
   },
   {
     "id": "api.web_socket.connect.upgrade.app_error",
