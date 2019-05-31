@@ -3004,27 +3004,27 @@
   },
   {
     "id": "app.import.validate_team_import_data.name_length.error",
-    "translation": "Team name is too long."
+    "translation": "팀 이름이 너무 깁니다."
   },
   {
     "id": "app.import.validate_team_import_data.name_missing.error",
-    "translation": "Missing required team property: name."
+    "translation": "팀 속성에 빠진 항목이 있습니다: 이름"
   },
   {
     "id": "app.import.validate_team_import_data.name_reserved.error",
-    "translation": "Team name contains reserved words."
+    "translation": "팀 이름에 예약명이 포함되어 있습니다."
   },
   {
     "id": "app.import.validate_team_import_data.scheme_invalid.error",
-    "translation": "Invalid scheme name for team."
+    "translation": "팀의 스킴 이름이 유효하지 않습니다."
   },
   {
     "id": "app.import.validate_team_import_data.type_invalid.error",
-    "translation": "Team type is not valid."
+    "translation": "팀 타입이 유효하지 않습니다."
   },
   {
     "id": "app.import.validate_team_import_data.type_missing.error",
-    "translation": "Missing required team property: type."
+    "translation": "팀 속성에 빠진 항목이 있습니다: 타입"
   },
   {
     "id": "app.import.validate_user_channels_import_data.channel_name_missing.error",
