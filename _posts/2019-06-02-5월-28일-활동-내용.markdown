@@ -2,7 +2,7 @@
 layout: post
 title:  "5월 28일 팀 활동 내용"
 author: seunghyeon
-image : https://www.mattermost.org/wp-content/uploads/2015/09/20160315_v210.png
+image : image: assets/images/4.jpg
 categories: [ TeamL4 ]
 ---
 
