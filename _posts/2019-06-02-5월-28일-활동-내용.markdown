@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "5월 28일 팀 활동 내용"
+author: seunghyeon
+categories: [ 활동 내용 ]
+images: "https://www.mattermost.org/wp-content/uploads/2015/09/20160315_v210.png"
+---
+
+# L4 5.28일 실습 시간 활동 내용
+
+## 개인별 역할 분배
+
++ 조우림 : 팀 홈페이지 코드 관리, 팀원들 참여 상황 관리, 코드 기여
++ 김승현 : 코드 기여, 코드 리뷰 및 피드백
++ 김준태 : 번역 및 피드백 부분 찾아보기
++ 이채현 : 이슈 리포트
++ 조영성 : 번역 및 버그 확인
+
+## Contribution 활동을 위한 개발 환경 Setting
+
+Mattermost 프로젝트에 Contribution을 하기 전에, `CLA(Contributor License Agreement`에 등록하는 작업이 필요합니다. 따라서 오늘 팀원들에게 Github 이슈를 통해 해당 내용을 전달하고, 개발 환경 세팅을 하였습니다.
+Mattermost 프로젝트는 Web, Server, Mobile등으로 세분화되어 있기 때문에, 팀원들의 개발 pool에 따라 참여할 수 있는 issue 또는 프로젝트를 추천했습니다.
+
+
+## 제안사항
+
++ gh-pages 브랜치는 팀원들이 직접 커밋하지 않고, Git에 대한 이해를 높이기 위해 Pull Request로 커밋하는 것을 권장할 예정
++ Mattermost 프로젝트에 기여하는 것 뿐만 아니라 Github Page 또한 잘 관리할 수 있도록 이슈의 Label과 Github의 프로젝트, Wiki 탭 등을 적극 활용할 예정입니다.
+
+
+## 남은 기간 계획
+
+팀 멤버 전원이 Mattermost 프로젝트에 PR이 1개 이상 Merge되는 것을 목표로 활동할 예정입니다.
+프로젝트 소개, Contribution Guide 및 프로젝트에 PR 혹은 이슈 등록시 해당 내용을 Github Page에 작성할 예정입니다.
+
