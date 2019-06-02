@@ -51,7 +51,7 @@ Mattermost 관련 내용은 해당 두 글에서 참조하였습니다.
 [https://blog.cometkim.kr/posts/mattermost-contribution/introduction-to-mattermost/](https://blog.cometkim.kr/posts/mattermost-contribution/introduction-to-mattermost/)  
 [https://blog.cometkim.kr/posts/mattermost-contribution/how-i-grow-up-with-mattermost-community/](https://blog.cometkim.kr/posts/mattermost-contribution/how-i-grow-up-with-mattermost-community/)  
 
-# contribute guide
+# Contribution Guidelines
 https://developers.mattermost.com/contribute/getting-started/
 
 # mattermost github
