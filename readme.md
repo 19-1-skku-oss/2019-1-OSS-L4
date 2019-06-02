@@ -54,5 +54,5 @@ Mattermost 관련 내용은 해당 두 글에서 참조하였습니다.
 # Contribution Guidelines
 https://developers.mattermost.com/contribute/getting-started/
 
-# mattermost github
+# Mattermost Github
 https://github.com/mattermost/
