@@ -2,6 +2,7 @@
 layout: post
 title:  "Mattermost 번역 기여하기"
 categories: [ Translation Contribution ]
+image: "https://user-images.githubusercontent.com/49435799/58809113-4685e400-8656-11e9-9099-fa37b29d6009.png"
 author: joontae
 ---
 
