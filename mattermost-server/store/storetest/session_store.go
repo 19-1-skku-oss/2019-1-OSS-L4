@@ -149,7 +149,7 @@ func testSessionRemoveByUser(t *testing.T, ss store.Store) {
 		}
 	}
 
-	err := ss.Session().PermanentDeleteSessionsByUser(s1.UserId)
+	err = ss.Session().PermanentDeleteSessionsByUser(s1.UserId)
 	require.Nil(t, err)
 
 	if rs2 := (<-ss.Session().Get(s1.Id)); rs2.Err == nil {
