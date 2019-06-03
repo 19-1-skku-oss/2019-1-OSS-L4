@@ -3540,7 +3540,7 @@
   },
   {
     "id": "ent.ldap.create_fail",
-    "translation": "Unable to create LDAP user."
+    "translation": "LDAP 사용자를 생성할 수 없습니다."
   },
   {
     "id": "ent.ldap.disabled.app_error",
