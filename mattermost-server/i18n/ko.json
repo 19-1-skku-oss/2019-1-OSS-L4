@@ -3312,19 +3312,19 @@
   },
   {
     "id": "app.user_access_token.invalid_or_missing",
-    "translation": "Invalid or missing token"
+    "translation": "토큰이 유효하지 않거나 누락됬습니다."
   },
   {
     "id": "brand.save_brand_image.decode.app_error",
-    "translation": "Unable to decode the image data."
+    "translation": "이미지 데이터를 불러올 수 없습니다."
   },
   {
     "id": "brand.save_brand_image.decode_config.app_error",
-    "translation": "Unable to get image metadata."
+    "translation": "이미지 속성정보를 불러올 수 없습니다."
   },
   {
     "id": "brand.save_brand_image.encode.app_error",
-    "translation": "Unable to convert the image data to PNG format. Please try again."
+    "translation": "이미지 데이터를 PNG형식으로 변환할 수 없습니다. 다시 시도해보세요."
   },
   {
     "id": "brand.save_brand_image.open.app_error",
@@ -3336,7 +3336,7 @@
   },
   {
     "id": "brand.save_brand_image.too_large.app_error",
-    "translation": "Unable to read the image file. Make sure the image size is less than 2 MB and try again."
+    "translation": "이미지 파일을 읽을 수 없습니다. 이미지 크기를 2MB보다 작게 하고 다시 시도해보세요."
   },
   {
     "id": "cli.license.critical",
@@ -3624,15 +3624,15 @@
   },
   {
     "id": "ent.message_export.global_relay.close_zip_file.app_error",
-    "translation": "Unable to close the zip file."
+    "translation": "압축파일을 닫을 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay.create_file_in_zip.app_error",
-    "translation": "Unable to create the eml file."
+    "translation": "EML파일을 생성할 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay.generate_email.app_error",
-    "translation": "Unable to generate eml file data."
+    "translation": "EML파일의 데이터를 생성할 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.close.app_error",
@@ -3640,35 +3640,35 @@
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.from_address.app_error",
-    "translation": "Unable to set the email From address."
+    "translation": "주소로부터 이메일을 설정할 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.msg.app_error",
-    "translation": "Unable to set the email message."
+    "translation": "이메일 메세지를 설정할 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.msg_data.app_error",
-    "translation": "Unable to write the email message."
+    "translation": "이메일 메세지를 작성할 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.parse_mail.app_error",
-    "translation": "Unable to read the email information."
+    "translation": "이메일 정보를 읽을 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.to_address.app_error",
-    "translation": "Unable to set the email To address."
+    "translation": "주소에 이메일을 설정할 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.unable_to_get_file_info.app_error",
-    "translation": "Unable to get the information of the export temporary file"
+    "translation": "보낸 임시파일의 정보를 불러올 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.unable_to_open_email_file.app_error",
-    "translation": "Unable to get the an email from the temporary file"
+    "translation": "임시파일로 부터 이메일을 찾을 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.unable_to_open_zip_file_data.app_error",
-    "translation": "Unable to open the export temporary file"
+    "translation": "보낸 임시파일을 열 수 없습니다."
   },
   {
     "id": "ent.migration.migratetoldap.duplicate_field",
