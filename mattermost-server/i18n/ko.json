@@ -3056,11 +3056,11 @@
   },
   {
     "id": "app.import.validate_user_import_data.email_length.error",
-    "translation": "User email has an invalid length."
+    "translation": "이메일 주소 길이가 유효하지 않습니다."
   },
   {
     "id": "app.import.validate_user_import_data.email_missing.error",
-    "translation": "Missing required user property: email."
+    "translation" :"사용자 속성에 작성되지 않은 항목이 있습니다: 이메일"
   },
   {
     "id": "app.import.validate_user_import_data.first_name_length.error",
@@ -3104,7 +3104,7 @@
   },
   {
     "id": "app.import.validate_user_import_data.password_length.error",
-    "translation": "User Password has invalid length."
+    "translation": "비밀번호 길이가 유효하지 않습니다."
   },
   {
     "id": "app.import.validate_user_import_data.position_length.error",
@@ -3112,7 +3112,7 @@
   },
   {
     "id": "app.import.validate_user_import_data.profile_image.error",
-    "translation": "Invalid profile image."
+    "translation": "유효하지 않은 프로필 이미지입니다."
   },
   {
     "id": "app.import.validate_user_import_data.roles_invalid.error",
@@ -3124,7 +3124,7 @@
   },
   {
     "id": "app.import.validate_user_import_data.username_missing.error",
-    "translation": "Missing require user property: username."
+    "translation": "사용자 속성에 작성하지 않은 항목이 있습니다: 사용자 이름"
   },
   {
     "id": "app.import.validate_user_teams_import_data.invalid_roles.error",
