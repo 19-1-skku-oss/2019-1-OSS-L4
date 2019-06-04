@@ -2648,11 +2648,11 @@
   },
   {
     "id": "app.import.import_direct_channel.create_direct_channel.error",
-    "translation": "Failed to create direct channel"
+    "translation": "다이렉트 채널 만들기에 실패하였습니다."
   },
   {
     "id": "app.import.import_direct_channel.create_group_channel.error",
-    "translation": "Failed to create group channel"
+    "translation": "그룹 채널 만들기에 실패하였습니다."
   },
   {
     "id": "app.import.import_direct_channel.member_not_found.error",
