@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mattermost 기여 가이드라인"
+title:  "Mattermost 기여 가이드라인(1)"
 categories: [ Contribution Guideline ]
 author: chaehyeon
 ---
