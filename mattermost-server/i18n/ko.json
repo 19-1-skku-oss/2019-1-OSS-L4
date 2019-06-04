@@ -2292,11 +2292,11 @@
   },
   {
     "id": "api.user.login.inactive.app_error",
-    "translation": "Login failed because your account has been set to inactive.  Please contact an administrator."
+    "translation": "사용자 계정이 비활성 상태로 로그인에 실패하였습니다. 관리자에게 문의하세요.  "
   },
   {
     "id": "api.user.login.invalid_credentials",
-    "translation": "User ID or password incorrect."
+    "translation": "사용자 ID나 패스워드가 잘못되었습니다."
   },
   {
     "id": "api.user.login.not_verified.app_error",
@@ -2528,7 +2528,7 @@
   },
   {
     "id": "api.web_socket_router.no_action.app_error",
-    "translation": "No websocket action."
+    "translation": "웹소켓 활동이 없습니다."
   },
   {
     "id": "api.web_socket_router.not_authenticated.app_error",
@@ -2568,7 +2568,7 @@
   },
   {
     "id": "app.admin.test_email.failure",
-    "translation": "Connection unsuccessful: {{.Error}}"
+    "translation": "연결 실패: {{.Error}}"
   },
   {
     "id": "app.channel.create_channel.no_team_id.app_error",
@@ -5624,31 +5624,31 @@
   },
   {
     "id": "store.sql_command.analytics_command_count.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command.get_by_trigger.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command.save.delete.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command.save.delete_perm.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command.save.get.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command.save.get_team.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command.save.saving.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command.save.saving_overwrite.app_error",
@@ -5656,15 +5656,15 @@
   },
   {
     "id": "store.sql_command.save.update.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command_webhooks.get.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command_webhooks.save.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command_webhooks.save.existing.app_error",
@@ -5672,7 +5672,7 @@
   },
   {
     "id": "store.sql_command_webhooks.try_use.app_error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_command_webhooks.try_use.invalid.app_error",
