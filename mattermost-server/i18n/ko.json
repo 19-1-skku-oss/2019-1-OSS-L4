@@ -2188,7 +2188,7 @@
   },
   {
     "id": "api.user.create_email_token.error",
-    "translation": "Failed to create token data for email verification"
+    "translation": "이메일 증명을 위한 토큰 데이터 생성에 실패하였습니다."
   },
   {
     "id": "api.user.create_oauth_user.already_attached.app_error",
@@ -5280,19 +5280,19 @@
   },
   {
     "id": "store.sql_channel.get_channels.get.app_error",
-    "translation": "채널을 불러올 수 없습니다."
+    "translation": "채널을 찾을 수 없습니다."
   },
   {
     "id": "store.sql_channel.get_channels.not_found.app_error",
-    "translation": "No channels were found"
+    "translation": "채널을 찾을 수 없습니다."
   },
   {
     "id": "store.sql_channel.get_channels_by_ids.get.app_error",
-    "translation": "채널을 불러올 수 없습니다."
+    "translation": "채널을 찾을 수 없습니다."
   },
   {
     "id": "store.sql_channel.get_channels_by_ids.not_found.app_error",
-    "translation": "No channel found"
+    "translation": "채널을 찾을 수 없습니다."
   },
   {
     "id": "store.sql_channel.get_deleted.existing.app_error",
@@ -5488,7 +5488,7 @@
   },
   {
     "id": "store.sql_channel.save_channel.previously.app_error",
-    "translation": "A channel with that URL was previously created"
+    "translation": "해당 URL의 채널이 이미 있습니다."
   },
   {
     "id": "store.sql_channel.save_channel.save.app_error",
