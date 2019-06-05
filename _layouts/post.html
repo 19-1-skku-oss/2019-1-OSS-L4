@@ -17,7 +17,7 @@ layout: default
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
 					<div class="d-flex align-items-center">
                         {% if author.avatar %}
-                        <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
+                        <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70" height="70"/>
 						{% endif %}
 						<small class="ml-3"> {{ author.name_kor }} <span><!--<a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">View Posts</a>--></span>
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%Y-%m-%d' }} · {% include meta-read-time.html %}</span>
