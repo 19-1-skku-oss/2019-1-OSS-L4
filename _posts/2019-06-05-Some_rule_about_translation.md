@@ -2,7 +2,7 @@
 layout: post
 title:  "번역 시 모호한 표현에 대하여"
 categories: [ Contribution Guideline ]
-image: "images/2019-06-05-young/2019_06_05_preview.PNG"
+image: "assets/images/3.jpg"
 author: young
 ---
 # 일관성 있는 표현 사용하기
@@ -14,7 +14,7 @@ author: young
 ![image](/2019-1-OSS-L4/images/2019-06-05-young/community_eng.PNG)  
 https://community.mattermost.com/  
 다음은 Mattermost 커뮤니티 페이지입니다. 이곳에서 DIRECT MESSAGES라는 표현이 눈에 보입니다.  
-![image](/2019-1-OSS-L4/images/2019-06-05-young/language_setting_1.PNG) ![image](/2019-1-OSS-L4/images/2019-06-05-young/language_setting_2.PNG)  
+![image](/2019-1-OSS-L4/images/2019-06-05-young/language_setting_1.PNG) ---> ![image](/2019-1-OSS-L4/images/2019-06-05-young/language_setting_2.PNG)  
 설정에 들어가서 한국어로 언어를 변경합니다.  
 ![image](/2019-1-OSS-L4/images/2019-06-05-young/community_kor.PNG)  
 페이지의 언어가 한국어로 변경되었습니다.  
