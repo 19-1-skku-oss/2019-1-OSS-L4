@@ -3,7 +3,8 @@ layout: post
 title:  "Mattermost 기여 가이드라인(1)"
 categories: [ Contribution Guideline ]
 author: chaehyeon
-image: "https://user-images.githubusercontent.com/49435910/58867867-2c034780-86f6-11e9-9586-25e2169b021c.png"
+image: "https://user-images.githubusercontent.com/49435910/58872392-e008d080-86fe-11e9-8ece-209f9f19bdf6.png"
+
 ---
 
 # 기여 시작하기
