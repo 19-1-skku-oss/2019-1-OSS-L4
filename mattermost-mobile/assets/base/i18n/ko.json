@@ -194,7 +194,7 @@
   "mobile.client_upgrade.upgrade": "업데이트 하기",
   "mobile.commands.error_title": "Error Executing Command",
   "mobile.components.error_list.dismiss_all": "Dismiss All",
-  "mobile.components.select_server_view.connect": "연결 되었습니다.",
+  "mobile.components.select_server_view.connect": "연결",
   "mobile.components.select_server_view.connecting": "연결 중...",
   "mobile.components.select_server_view.enterServerUrl": "Enter Server URL",
   "mobile.components.select_server_view.proceed": "Proceed",
