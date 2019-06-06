@@ -185,7 +185,7 @@
   },
   {
     "id": "api.channel.create_group.bad_size.app_error",
-    "translation": "그룹 메세지 채널은 최소 3명에서 최대 8명까지의 사용자를 포함해야 합니다."
+    "translation": "그룹 메시지 채널은 최소 3명에서 최대 8명까지의 사용자를 포함해야 합니다."
   },
   {
     "id": "api.channel.create_group.bad_user.app_error",
@@ -289,11 +289,11 @@
   },
   {
     "id": "api.channel.rename_channel.cant_rename_direct_messages.app_error",
-    "translation": "단체 메세지 채널 이름을 바꿀 수 없습니다."
+    "translation": "단체 메시지 채널 이름을 바꿀 수 없습니다."
   },
   {
     "id": "api.channel.rename_channel.cant_rename_group_messages.app_error",
-    "translation": "단체 메세지 채널 이름을 바꿀 수 없습니다."
+    "translation": "단체 메시지 채널 이름을 바꿀 수 없습니다."
   },
   {
     "id": "api.channel.update_channel.deleted.app_error",
@@ -461,7 +461,7 @@
   },
   {
     "id": "api.command_channel_purpose.message.app_error",
-    "translation": "/purpose 명령어를 사용해서 메세지를 작성하세요."
+    "translation": "/purpose 명령어를 사용해서 메시지를 작성하세요."
   },
   {
     "id": "api.command_channel_purpose.name",
@@ -904,7 +904,7 @@
   },
   {
     "id": "api.command_search.desc",
-    "translation": "메세지에서 문장 찾기"
+    "translation": "메시지에서 문장 찾기"
   },
   {
     "id": "api.command_search.hint",
@@ -1024,7 +1024,7 @@
   },
   {
     "id": "api.email_batching.render_batched_post.group_message",
-    "translation": "로부터 그룹 메세지"
+    "translation": "로부터 그룹 메시지"
   },
   {
     "id": "api.email_batching.render_batched_post.notification",
@@ -3644,11 +3644,11 @@
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.msg.app_error",
-    "translation": "이메일 메세지를 설정할 수 없습니다."
+    "translation": "이메일 메시지를 설정할 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.msg_data.app_error",
-    "translation": "이메일 메세지를 작성할 수 없습니다."
+    "translation": "이메일 메시지를 작성할 수 없습니다."
   },
   {
     "id": "ent.message_export.global_relay_export.deliver.parse_mail.app_error",
@@ -4128,11 +4128,11 @@
   },
   {
     "id": "model.command.is_valid.url.app_error",
-    "translation": "Invalid URL"
+    "translation": "잘못된 URL"
   },
   {
     "id": "model.command.is_valid.url_http.app_error",
-    "translation": "Invalid URL. Must be a valid URL and start with http:// or https://"
+    "translation": "잘못된 URL. 올바른 URL은 http:// 또는 https:// 로 시작합니다."
   },
   {
     "id": "model.command.is_valid.user_id.app_error",
@@ -4140,7 +4140,7 @@
   },
   {
     "id": "model.command_hook.channel_id.app_error",
-    "translation": "Invalid channel id"
+    "translation": "잘못된 채널 ID"
   },
   {
     "id": "model.command_hook.command_id.app_error",
@@ -4156,7 +4156,7 @@
   },
   {
     "id": "model.command_hook.parent_id.app_error",
-    "translation": "잘못된 Parent Id 입니다."
+    "translation": "잘못된 Parent ID 입니다."
   },
   {
     "id": "model.command_hook.root_id.app_error",
@@ -4632,7 +4632,7 @@
   },
   {
     "id": "model.incoming_hook.channel_id.app_error",
-    "translation": "Invalid channel id"
+    "translation": "잘못된 채널 ID"
   },
   {
     "id": "model.incoming_hook.create_at.app_error",
@@ -4772,7 +4772,7 @@
   },
   {
     "id": "model.outgoing_hook.is_valid.channel_id.app_error",
-    "translation": "Invalid channel id"
+    "translation": "잘못된 채널 ID"
   },
   {
     "id": "model.outgoing_hook.is_valid.content_type.app_error",
@@ -5124,7 +5124,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLab's Terms of Service have updated. Please go to gitlab.com to accept them and then try logging into Mattermost again."
+    "translation": "GitLab의 이용 약관이 갱신되었습니다. gitlab.com을 방문하여 동의한 다음 다시 Mattermost에 로그인하십시오."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -6520,15 +6520,15 @@
   },
   {
     "id": "store.sql_terms_of_service.save.app_error",
-    "translation": "Unable to save terms of service."
+    "translation": "이용 약관을 저장할 수 없습니다."
   },
   {
     "id": "store.sql_terms_of_service_store.get.app_error",
-    "translation": "Unable to fetch terms of service."
+    "translation": "이용 약관을 불러올 수 없습니다."
   },
   {
     "id": "store.sql_terms_of_service_store.get.no_rows.app_error",
-    "translation": "No terms of service found."
+    "translation": "이용 약관을 찾을 수 없습니다."
   },
   {
     "id": "store.sql_terms_of_service_store.save.existing.app_error",
@@ -6784,19 +6784,19 @@
   },
   {
     "id": "store.sql_user_terms_of_service.delete.app_error",
-    "translation": "Unable to delete terms of service."
+    "translation": "이용 약관을 삭제할 수 없습니다."
   },
   {
     "id": "store.sql_user_terms_of_service.get_by_user.app_error",
-    "translation": "Unable to fetch terms of service."
+    "translation": "이용약관을 가져올 수 없습니다."
   },
   {
     "id": "store.sql_user_terms_of_service.get_by_user.no_rows.app_error",
-    "translation": "No terms of service found."
+    "translation": "이용약관을 찾을 수 없습니다."
   },
   {
     "id": "store.sql_user_terms_of_service.save.app_error",
-    "translation": "Unable to save terms of service."
+    "translation": "이용약관을 저장할 수 없습니다."
   },
   {
     "id": "store.sql_webhooks.analytics_incoming_count.app_error",
