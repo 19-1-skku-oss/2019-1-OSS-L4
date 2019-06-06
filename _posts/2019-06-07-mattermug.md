@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Mattermost 오픈소스 참여로 얻은 보상"
-categories: [ Contribution Guideline ]
-image: "assets/images/2019-06-07-mattermug/mattermug.jpg"
+categories: [ MatterMost, Code Contribution, Pull Request ]
+image: "images/2019-06-07-mattermug/mattermug.jpg"
 author: woolim
 ---
 # MatterMost 프로젝트 참여하기  
