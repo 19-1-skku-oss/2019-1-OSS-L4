@@ -17,8 +17,12 @@ import * as ChannelUtils from 'utils/channel_utils.jsx';
 import {Constants, ModalIdentifiers, SidebarChannelGroups} from 'utils/constants.jsx';
 import * as Utils from 'utils/utils.jsx';
 import {t} from 'utils/i18n';
-import favicon from 'images/favicon/favicon-16x16.png';
-import redDotFavicon from 'images/favicon/favicon-reddot-16x16.png';
+import favicon16x16 from 'images/favicon/favicon-16x16.png';
+import favicon32x32 from 'images/favicon/favicon-16x16.png';
+import favicon96x96 from 'images/favicon/favicon-16x16.png';
+import redDotFavicon16x16 from 'images/favicon/favicon-reddot-16x16.png';
+import redDotFavicon32x32 from 'images/favicon/favicon-reddot-16x16.png';
+import redDotFavicon96x96 from 'images/favicon/favicon-reddot-16x16.png';
 import MoreChannels from 'components/more_channels';
 import MoreDirectChannels from 'components/more_direct_channels';
 import QuickSwitchModal from 'components/quick_switch_modal';
@@ -248,10 +252,18 @@ export default class Sidebar extends React.PureComponent {
 
         // update the favicon to show if there are any notifications
         if (this.lastBadgesActive !== this.badgesActive) {
+            const link16x16 = document.querySelector('link[rel="icon"][sizes="16x16"]');
+            const link32x32 = document.querySelector('link[rel="icon"][sizes="32x32"]');
+            const link96x96 = document.querySelector('link[rel="icon"][sizes="96x96"]');
+
             if (this.badgesActive) {
-                link.href = typeof redDotFavicon === 'string' ? redDotFavicon : '';
+                link16x16.href = typeof redDotFavicon16x16 === 'string' ? redDotFavicon16x16 : '';
+                link32x32.href = typeof redDotFavicon32x32 === 'string' ? redDotFavicon32x32 : '';
+                link96x96.href = typeof redDotFavicon96x96 === 'string' ? redDotFavicon96x96 : '';
             } else {
-                link.href = typeof favicon === 'string' ? favicon : '';
+                link16x16.href = typeof favicon16x16 === 'string' ? favicon16x16 : '';
+                link32x32.href = typeof favicon32x32 === 'string' ? favicon32x32 : '';
+                link96x96.href = typeof favicon96x96 === 'string' ? favicon96x96 : '';
             }
         }
     }
