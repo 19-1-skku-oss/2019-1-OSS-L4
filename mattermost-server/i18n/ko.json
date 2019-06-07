@@ -1,4 +1,4 @@
-[
+i[
   {
     "id": "April",
     "translation": "4월"
@@ -6644,7 +6644,7 @@
   },
   {
     "id": "store.sql_user.save.email_exists.app_error",
-    "translation": "An account with that email already exists."
+    "translation": "이메일이 이미 존재하는 계정입니다."
   },
   {
     "id": "store.sql_user.save.email_exists.ldap_app_error",
@@ -6668,7 +6668,7 @@
   },
   {
     "id": "store.sql_user.save.username_exists.app_error",
-    "translation": "An account with that username already exists."
+    "translation": "사용자 이름이 이미 존재하는 계정입니다"
   },
   {
     "id": "store.sql_user.save.username_exists.ldap_app_error",
