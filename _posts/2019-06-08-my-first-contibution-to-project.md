@@ -11,16 +11,24 @@ image: assets/images/my-first-contribution/PR_Closed.png
   해당 포스트는 오픈소스소프트웨어 실습에 참여하면서 팀 단위로 주제를 선정한 이후,실제로 issue를 통해 server분야 작업할 프로젝트를 선정하고 이에 저희가 수정한 Code를 commit하고 Pull Request를 통하여 저희가 작성한 Code가 Merge되어 Project에 기여햔 과정을 담았습니다.  
 
   Mattermost에 contribtue하는 과정은 아래 포스트를 통해 확인할 수 있습니다.
- [Contribution GuideLine] (https://19-1-skku-oss.github.io/2019-1-OSS-L4/Mattermost_Contribution-Guideline(1))
+  
+ [Contribution GuideLine](https://19-1-skku-oss.github.io/2019-1-OSS-L4/Mattermost_Contribution-Guideline(1))
 
    Server 분야가 아닌 Mobile 분야의 PR을 통한 contribution은 아래 게시글을 통해 확인 가능합니다.
-[Mobile PR] (https://19-1-skku-oss.github.io/2019-1-OSS-L4/mobile-pr/)
+   
+[Mobile PR](https://19-1-skku-oss.github.io/2019-1-OSS-L4/mobile-pr/)
 
   저희가 프로젝트를 통해 해결한 이슈와 PR 링크는 다음과 같습니다.
-`MM-15795`  [PR](https://github.com/mattermost/mattermost-server/pull/11000) /[Issue](https://github.com/mattermost/mattermost-server/issues/10937)
-`MM-15799`  [PR](https://github.com/mattermost/mattermost-server/pull/11038) /[Issue](https://github.com/mattermost/mattermost-server/issues/10933)
-`MM-15303`  [PR](https://github.com/mattermost/mattermost-server/pull/10927) /[Issue](https://github.com/mattermost/mattermost-server/issues/10714)
-`MM-15304`  [PR](https://github.com/mattermost/mattermost-server/pull/10940) /[Issue](https://github.com/mattermost/mattermost-server/issues/10713)
+ 
+ + `MM-15303`   [PR](https://github.com/mattermost/mattermost-server/pull/10927) / [Issue](https://github.com/mattermost/mattermost-server/issues/10714)
+
+ + `MM-15304`   [PR](https://github.com/mattermost/mattermost-server/pull/10940) / [Issue](https://github.com/mattermost/mattermost-server/issues/10713)
+ 
+ + `MM-15795`   [PR](https://github.com/mattermost/mattermost-server/pull/11000) / [Issue](https://github.com/mattermost/mattermost-server/issues/10937)
+ 
+ + `MM-15799`   [PR](https://github.com/mattermost/mattermost-server/pull/11038) / [Issue](https://github.com/mattermost/mattermost-server/issues/10933)
+
+
 
 
 ## GO? Docker?
@@ -28,7 +36,6 @@ image: assets/images/my-first-contribution/PR_Closed.png
 Mattermost 서버의 경우 `GO` 언어를 기반으로 동작하는데, 저희 모두 GO언어를 접해본 적이 없기 때문에 처음에는 모르는 언어로 진행되는 프로젝트에 Code로 기여할 수 있을까 하는 막막함과 두려움이 앞섰습니다. 하지만 Mattermost 프로젝트의 경우 이슈별로 난이도가 `Difficulty` tag를 통해 잘 나타나 있고, 같은 내용을 담은 이슈들과 Code를 확인할 수 있기 때문에 이를 참조한다면 저희도 할 수 있을 것이라 생각되어 조우림 팀장님의 도움을 받아 코드 기여에 도전해 보기로 하였습니다.
 
 ![image](/assets/images/my-first-contribution/issue_list.png)  
-
 
 ![image](/assets/images/my-first-contribution/PR_code.png)  
 
