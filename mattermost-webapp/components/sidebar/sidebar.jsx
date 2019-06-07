@@ -18,7 +18,7 @@ import {Constants, ModalIdentifiers, SidebarChannelGroups} from 'utils/constants
 import * as Utils from 'utils/utils.jsx';
 import {t} from 'utils/i18n';
 import favicon from 'images/favicon/favicon-16x16.png';
-import redFavicon from 'images/favicon/redfavicon-16x16.png';
+import redDotFavicon from 'images/favicon/favicon-reddot-16x16.png';
 import MoreChannels from 'components/more_channels';
 import MoreDirectChannels from 'components/more_direct_channels';
 import QuickSwitchModal from 'components/quick_switch_modal';
