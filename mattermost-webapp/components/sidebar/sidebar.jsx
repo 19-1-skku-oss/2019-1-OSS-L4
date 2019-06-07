@@ -243,7 +243,7 @@ export default class Sidebar extends React.PureComponent {
     setBadgesActiveAndFavicon() {
         const link = document.querySelector('link[rel="icon"]');
 
-        if(!link) {
+        if (!link) {
             return;
         }
 
