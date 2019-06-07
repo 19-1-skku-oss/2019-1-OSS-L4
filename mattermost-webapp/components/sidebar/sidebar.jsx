@@ -237,26 +237,22 @@ export default class Sidebar extends React.PureComponent {
     }
 
     setBadgesActiveAndFavicon() {
+        const link = document.querySelector('link[rel="icon"]');
+
+        if(!link) {
+            return;
+        }
+
         this.lastBadgesActive = this.badgesActive;
         this.badgesActive = this.props.unreads.mentionCount;
 
         // update the favicon to show if there are any notifications
         if (this.lastBadgesActive !== this.badgesActive) {
-            var link = document.createElement('link');
-            link.type = 'image/x-icon';
-            link.rel = 'shortcut icon';
-            link.id = 'favicon';
             if (this.badgesActive) {
-                link.href = typeof redFavicon === 'string' ? redFavicon : '';
+                link.href = typeof redDotFavicon === 'string' ? redDotFavicon : '';
             } else {
                 link.href = typeof favicon === 'string' ? favicon : '';
             }
-            var head = document.getElementsByTagName('head')[0];
-            var oldLink = document.getElementById('favicon');
-            if (oldLink) {
-                head.removeChild(oldLink);
-            }
-            head.appendChild(link);
         }
     }
 
