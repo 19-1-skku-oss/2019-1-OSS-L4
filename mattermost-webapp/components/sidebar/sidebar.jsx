@@ -627,8 +627,6 @@ export default class Sidebar extends React.PureComponent {
             return (<div/>);
         }
 
-        this.badgesActive = false;
-
         // keep track of the first and last unread channels so we can use them to set the unread indicators
         this.firstUnreadChannel = null;
         this.lastUnreadChannel = null;
