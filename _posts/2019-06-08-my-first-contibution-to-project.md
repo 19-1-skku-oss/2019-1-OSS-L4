@@ -3,7 +3,7 @@ layout: post
 title:  "실제 Mattermost-Server에 Code로 기여하기 까지"
 author: seunghyeon
 categories: [ Code Contribution ]
-image: assets/images/PR_Closed.png
+image: assets/images/my-first-contribution/PR_Closed.png
 ---
 
 ## Mattermost Project에 내가 작성한 Code로 기여하는 과정
@@ -27,12 +27,10 @@ image: assets/images/PR_Closed.png
 
 Mattermost 서버의 경우 `GO` 언어를 기반으로 동작하는데, 저희 모두 GO언어를 접해본 적이 없기 때문에 처음에는 모르는 언어로 진행되는 프로젝트에 Code로 기여할 수 있을까 하는 막막함과 두려움이 앞섰습니다. 하지만 Mattermost 프로젝트의 경우 이슈별로 난이도가 `Difficulty` tag를 통해 잘 나타나 있고, 같은 내용을 담은 이슈들과 Code를 확인할 수 있기 때문에 이를 참조한다면 저희도 할 수 있을 것이라 생각되어 조우림 팀장님의 도움을 받아 코드 기여에 도전해 보기로 하였습니다.
 
-[issue 부분 사진(tag 포함)]
-https://github.com/mattermost/mattermost-server/issues?utf8=%E2%9C%93&q=Migrate+is%3Aissue+is%3Aclosed
+![image](/assets/images/my-first-contribution/issue_list.png)  
 
-[PR된 migrate 이슈 Code 사진]
-https://github.com/mattermost/mattermost-server/issues/10937
 
+![image](/assets/images/my-first-contribution/PR_code.png)  
 
 + Migrate 이슈의 경우 함수의 구조를 파악하여 단순히 Migration하면 되기 때문에 전체적인 process가 동일합니다. 따라서 제가 맡았던 `MM-15957` 이슈를 토대로 과정을 기록하였습니다.
 
@@ -58,16 +56,16 @@ https://github.com/mattermost/mattermost-server/issues/10937
 
   Issue를 할당받아 코드 수정 후, 저희의 경우 Pull Request전에 저희 Team L4 repository에 수정된 코드를 미리 PR하여 서로 code를 확인해보는 시간을 가졌습니다. 이를 통해 정식으로 프로젝트에 Pull Request하기 전에 서로의 Code를 점검할 수 있었습니다.
 
-[Team Page내 Code 리뷰 사진]
-  https://github.com/19-1-skku-oss/2019-1-OSS-L4/pull/6
+  ![image](/assets/images/my-first-contribution/tp_pr.png)  
 
 
 ## Pull Request 
 
   Pull Request을 날리면 이에 대한 Code 리뷰와 함께 Feedback을 받을 수 있으며,리뷰 내용을 기반으로 수정 작업에 들어갑니다. 저 같은 경우 Code 수정 이후에도 Master branch와의 conflict 문제 등으로 인해 추가적인 수정을 해야 했습니다만, 결국 merge에 성공하여 생에 첫 기여에 성공하였습니다.
 
-  [Pull Request 과정 사진]
-  https://github.com/mattermost/mattermost-server/issues/10937
+![image](/assets/images/my-first-contribution/pr_1.png)  
+![image](/assets/images/my-first-contribution/pr_2.png)  
+![image](/assets/images/my-first-contribution/pr_3.png)  
 
 ## 오픈소스 프로젝트를 하며 느낀 점
 
