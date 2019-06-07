@@ -252,19 +252,7 @@ export default class Sidebar extends React.PureComponent {
 
         // update the favicon to show if there are any notifications
         if (this.lastBadgesActive !== this.badgesActive) {
-            const link16x16 = document.querySelector('link[rel="icon"][sizes="16x16"]');
-            const link32x32 = document.querySelector('link[rel="icon"][sizes="32x32"]');
-            const link96x96 = document.querySelector('link[rel="icon"][sizes="96x96"]');
-
-            if (this.badgesActive) {
-                link16x16.href = typeof redDotFavicon16x16 === 'string' ? redDotFavicon16x16 : '';
-                link32x32.href = typeof redDotFavicon32x32 === 'string' ? redDotFavicon32x32 : '';
-                link96x96.href = typeof redDotFavicon96x96 === 'string' ? redDotFavicon96x96 : '';
-            } else {
-                link16x16.href = typeof favicon16x16 === 'string' ? favicon16x16 : '';
-                link32x32.href = typeof favicon32x32 === 'string' ? favicon32x32 : '';
-                link96x96.href = typeof favicon96x96 === 'string' ? favicon96x96 : '';
-            }
+            this.updateFavicon(this.badgesActive);
         }
     }
 
@@ -317,6 +305,22 @@ export default class Sidebar extends React.PureComponent {
             const mentionTitle = unreads.mentionCount > 0 ? '(' + unreads.mentionCount + ') ' : '';
             const unreadTitle = unreads.messageCount > 0 ? '* ' : '';
             document.title = mentionTitle + unreadTitle + currentChannelName + ' - ' + this.props.currentTeam.display_name + ' ' + currentSiteName;
+        }
+    }
+
+    updateFavicon = (active) => {
+        const link16x16 = document.querySelector('link[rel="icon"][sizes="16x16"]');
+        const link32x32 = document.querySelector('link[rel="icon"][sizes="32x32"]');
+        const link96x96 = document.querySelector('link[rel="icon"][sizes="96x96"]');
+
+        if (active) {
+            link16x16.href = typeof redDotFavicon16x16 === 'string' ? redDotFavicon16x16 : '';
+            link32x32.href = typeof redDotFavicon32x32 === 'string' ? redDotFavicon32x32 : '';
+            link96x96.href = typeof redDotFavicon96x96 === 'string' ? redDotFavicon96x96 : '';
+        } else {
+            link16x16.href = typeof favicon16x16 === 'string' ? favicon16x16 : '';
+            link32x32.href = typeof favicon32x32 === 'string' ? favicon32x32 : '';
+            link96x96.href = typeof favicon96x96 === 'string' ? favicon96x96 : '';
         }
     }
 
