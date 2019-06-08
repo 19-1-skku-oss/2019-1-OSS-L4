@@ -2644,7 +2644,7 @@ i[
   },
   {
     "id": "app.import.import_channel.team_not_found.error",
-    "translation": "Error importing channel. Team with name \"{{.TeamName}}\" could not be found."
+    "translation": "채널 추가 오류. 이름이 \"{{.TeamName}}\"인 팀을 찾을 수 없습니다."
   },
   {
     "id": "app.import.import_direct_channel.create_direct_channel.error",
