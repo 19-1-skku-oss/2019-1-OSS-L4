@@ -1683,6 +1683,43 @@ func (s SqlChannelStore) GetMemberCount(channelId string, allowFromCache bool) s
 	})
 }
 
+func (s SqlChannelStore) GetPinnedPostCount(channelId string, allowFromCache bool) store.StoreChannel {
+	return store.Do(func(result *store.StoreResult) {
+		if allowFromCache {
+			if cacheItem, ok := channelMemberCountsCache.Get(channelId); ok {
+				if s.metrics != nil {
+					s.metrics.IncrementMemCacheHitCounter("Channel Member Counts")
+				}
+				result.Data = cacheItem.(int64)
+				return
+			}
+		}
+
+		if s.metrics != nil {
+			s.metrics.IncrementMemCacheMissCounter("Channel Member Counts")
+		}
+
+		count, err := s.GetReplica().SelectInt(`
+			SELECT count(*)
+				FROM Posts
+			WHERE
+				IsPinned = true
+				AND ChannelId = :ChannelId 
+				AND DeleteAt = 0 ORDER BY CreateAt ASC`, map[string]interface{}{"ChannelId": channelId})
+
+		if err != nil {
+			result.Err = model.NewAppError("SqlChannelStore.GetPinnedPostCount", "store.sql_channel.get_pinned_post_count.app_error", nil, "channel_id="+channelId+", "+err.Error(), http.StatusInternalServerError)
+			return
+		}
+		result.Data = count
+
+		if allowFromCache {
+			channelMemberCountsCache.AddWithExpiresInSecs(channelId, count, CHANNEL_MEMBERS_COUNTS_CACHE_SEC)
+		}
+	})
+}
+
+
 func (s SqlChannelStore) RemoveMember(channelId string, userId string) store.StoreChannel {
 	return store.Do(func(result *store.StoreResult) {
 		_, err := s.GetMaster().Exec("DELETE FROM ChannelMembers WHERE ChannelId = :ChannelId AND UserId = :UserId", map[string]interface{}{"ChannelId": channelId, "UserId": userId})
