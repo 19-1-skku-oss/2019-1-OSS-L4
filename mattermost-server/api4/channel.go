@@ -466,7 +466,13 @@ func getChannelStats(c *Context, w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	stats := model.ChannelStats{ChannelId: c.Params.ChannelId, MemberCount: memberCount}
+	pinnedPostCount, err := c.App.GetPinnedPostCount(c.Params.ChannelId)
+	if err != nil {
+		c.Err = err
+		return
+	}
+
+	stats := model.ChannelStats{ChannelId: c.Params.ChannelId, MemberCount: memberCount, PinnedPostCount: pinnedPostCount }
 	w.Write([]byte(stats.ToJson()))
 }
 
