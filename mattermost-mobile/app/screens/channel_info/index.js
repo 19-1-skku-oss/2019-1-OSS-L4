@@ -50,6 +50,7 @@ function mapStateToProps(state) {
     const currentChannelCreatorName = currentChannelCreator && currentChannelCreator.username;
     const currentChannelStats = getCurrentChannelStats(state);
     const currentChannelMemberCount = currentChannelStats && currentChannelStats.member_count;
+    const currentChannelPinnedPostCount = currentChannelStats && currentChannelStats.pinnedpost_count;
     const currentChannelMember = getMyCurrentChannelMembership(state);
     const currentUserId = getCurrentUserId(state);
     const favoriteChannels = getSortedFavoriteChannelIds(state);
@@ -88,6 +89,7 @@ function mapStateToProps(state) {
         currentChannel,
         currentChannelCreatorName,
         currentChannelMemberCount,
+        currentChannelPinnedPostCount,
         currentUserId,
         isChannelMuted: isChannelMuted(currentChannelMember),
         ignoreChannelMentions: areChannelMentionsIgnored(currentChannelMember.notify_props, currentUser.notify_props),
