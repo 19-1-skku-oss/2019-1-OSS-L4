@@ -278,6 +278,7 @@ type publicChannel struct {
 }
 
 var channelMemberCountsCache = utils.NewLru(CHANNEL_MEMBERS_COUNTS_CACHE_SIZE)
+var channelPinnedPostCountsCache = utils.NewLru(CHANNEL_MEMBERS_COUNTS_CACHE_SIZE)
 var allChannelMembersForUserCache = utils.NewLru(ALL_CHANNEL_MEMBERS_FOR_USER_CACHE_SIZE)
 var allChannelMembersNotifyPropsForChannelCache = utils.NewLru(ALL_CHANNEL_MEMBERS_NOTIFY_PROPS_FOR_CHANNEL_CACHE_SIZE)
 var channelCache = utils.NewLru(model.CHANNEL_CACHE_SIZE)
@@ -285,6 +286,7 @@ var channelByNameCache = utils.NewLru(model.CHANNEL_CACHE_SIZE)
 
 func (s SqlChannelStore) ClearCaches() {
 	channelMemberCountsCache.Purge()
+	channelPinnedPostCountsCache.Purge()
 	allChannelMembersForUserCache.Purge()
 	allChannelMembersNotifyPropsForChannelCache.Purge()
 	channelCache.Purge()
@@ -292,6 +294,7 @@ func (s SqlChannelStore) ClearCaches() {
 
 	if s.metrics != nil {
 		s.metrics.IncrementMemCacheInvalidationCounter("Channel Member Counts - Purge")
+		s.metrics.IncrementMemCacheInvalidationCounter("Channel Pinned Post Counts - Purge")
 		s.metrics.IncrementMemCacheInvalidationCounter("All Channel Members for User - Purge")
 		s.metrics.IncrementMemCacheInvalidationCounter("All Channel Members Notify Props for Channel - Purge")
 		s.metrics.IncrementMemCacheInvalidationCounter("Channel - Purge")
@@ -1686,7 +1689,7 @@ func (s SqlChannelStore) GetMemberCount(channelId string, allowFromCache bool) s
 func (s SqlChannelStore) GetPinnedPostCount(channelId string, allowFromCache bool) store.StoreChannel {
 	return store.Do(func(result *store.StoreResult) {
 		if allowFromCache {
-			if cacheItem, ok := channelMemberCountsCache.Get(channelId); ok {
+			if cacheItem, ok := channelPinnedPostCountsCache.Get(channelId); ok {
 				if s.metrics != nil {
 					s.metrics.IncrementMemCacheHitCounter("Channel Member Counts")
 				}
@@ -1696,7 +1699,7 @@ func (s SqlChannelStore) GetPinnedPostCount(channelId string, allowFromCache boo
 		}
 
 		if s.metrics != nil {
-			s.metrics.IncrementMemCacheMissCounter("Channel Member Counts")
+			s.metrics.IncrementMemCacheMissCounter("Channel Pinned Post Counts")
 		}
 
 		count, err := s.GetReplica().SelectInt(`
@@ -1714,7 +1717,7 @@ func (s SqlChannelStore) GetPinnedPostCount(channelId string, allowFromCache boo
 		result.Data = count
 
 		if allowFromCache {
-			channelMemberCountsCache.AddWithExpiresInSecs(channelId, count, CHANNEL_MEMBERS_COUNTS_CACHE_SEC)
+			channelPinnedPostCountsCache.AddWithExpiresInSecs(channelId, count, CHANNEL_MEMBERS_COUNTS_CACHE_SEC)
 		}
 	})
 }
