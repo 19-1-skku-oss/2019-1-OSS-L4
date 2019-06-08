@@ -312,6 +312,8 @@
                 display: table-cell;
             }
         }
+        scrollbar-width: thin;
+        scrollbar-color: rgba(61, 60, 64, 0.4) rgba(0, 0, 0, 0.1);
     }
 
     .more-messages-text {
