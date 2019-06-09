@@ -2844,7 +2844,7 @@ i[
   },
   {
     "id": "app.import.validate_direct_post_import_data.message_length.error",
-    "translation": "Message is too long"
+    "translation": "지나치게 긴 메세지"
   },
   {
     "id": "app.import.validate_direct_post_import_data.message_missing.error",
@@ -3440,23 +3440,23 @@ i[
   },
   {
     "id": "ent.elasticsearch.create_client.connect_failed",
-    "translation": "Setting up Elasticsearch Client Failed"
+    "translation": "Elasticsearch 클라이언트 셋팅을 할 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.create_index_if_not_exists.index_create_failed",
-    "translation": "Failed to create Elasticsearch index"
+    "translation": "Elasticsearch 인덱스를 생성할 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.data_retention_delete_indexes.delete_index.error",
-    "translation": "Failed to delete Elasticsearch index"
+    "translation": "Elasticsearch 인덱스를 지울 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.data_retention_delete_indexes.get_indexes.error",
-    "translation": "Failed to get Elasticsearch indexes"
+    "translation": "Elasticsearch 인덱스를 가져올 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.delete_post.error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.generic.disabled",
@@ -3464,7 +3464,7 @@ i[
   },
   {
     "id": "ent.elasticsearch.index_post.error",
-    "translation": "내용을 가져올수 없습니다."
+    "translation": "내용을 가져올 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.indexer.do_job.get_oldest_post.error",
@@ -3480,7 +3480,7 @@ i[
   },
   {
     "id": "ent.elasticsearch.not_started.error",
-    "translation": "Elasticsearch 가 시작되지 않음"
+    "translation": "Elasticsearch 를 시작할 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.purge_indexes.delete_failed",
@@ -3488,7 +3488,7 @@ i[
   },
   {
     "id": "ent.elasticsearch.search_posts.disabled",
-    "translation": "Elasticsearch searching is disabled on this server"
+    "translation": "본 서버에서 Elasticsearch 검색기능을 이용할 수 없습니다. "
   },
   {
     "id": "ent.elasticsearch.search_posts.parse_matches_failed",
