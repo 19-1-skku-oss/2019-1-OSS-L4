@@ -6,7 +6,7 @@ https://19-1-skku-oss.github.io/2019-1-OSS-L4/
 # Team Wiki
 [코드 기여 목록](https://github.com/19-1-skku-oss/2019-1-OSS-L4/wiki/%EC%BD%94%EB%93%9C-%EA%B8%B0%EC%97%AC-%EB%AA%A9%EB%A1%9D)  
 [번역 기여 목록](https://github.com/19-1-skku-oss/2019-1-OSS-L4/wiki/%EB%B2%88%EC%97%AD-%EA%B8%B0%EC%97%AC-%EB%AA%A9%EB%A1%9D)  
-[기타 기여/활동 목록](https://github.com/19-1-skku-oss/2019-1-OSS-L4/wiki/%EA%B8%B0%ED%83%80-%EA%B8%B0%EC%97%AC,%ED%99%9C%EB%8F%99-%EB%AA%A9%EB%A1%9D)  
+[기타 기여/활동 목록](https://github.com/19-1-skku-oss/2019-1-OSS-L4/wiki/%EA%B8%B0%ED%83%80-%EA%B8%B0%EC%97%AC,%ED%99%9C%EB%8F%99-%EB%AA%A9%EB%A1%9D)
 
 # 팀 구성원
 조우림(팀장) 2017312860  
@@ -18,7 +18,7 @@ kim95175@gmail.com / kim95175
 코드 리뷰 및 피드백
 
 김준태 2017314886  
-software3.skku@gamil.com / `JTzzang`
+software3.skku@gamil.com / `JTzzang` <br>
 번역 및 피드백 
 
 이채현 2018312543  
