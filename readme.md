@@ -41,7 +41,8 @@ Mattermost의 한국어 번역은 대략 30% 정도 진행이 되었기 때문�
 Mattermost의 경우 번역을 위해서 자체 Translation Server를 사용하기 때문에, 번역을 하고 난 후에는 Team Repository 해당 파일에 내용을 commit할 예정입니다.
 
 ### 코드 기여
-Mattermost는 크게 다음과 같은 3가지 프로젝트로 구성되어 있습니다.
+Mattermost는 크게 다음과 같은 4가지 프로젝트로 구성되어 있습니다.
+- mattermost-server: Go 기반 서버 Backend
 - mattermost-webapp: React, Redux 기반 웹 클라이언트
 - mattermost-desktop: Electron 기반 웹 클라이언트
 - mattermost-mobile: React Native 기반의 Android, iOS 네이티브 앱
