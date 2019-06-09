@@ -171,6 +171,8 @@ type ChannelStore interface {
 	InvalidateMemberCount(channelId string)
 	GetMemberCountFromCache(channelId string) int64
 	GetMemberCount(channelId string, allowFromCache bool) StoreChannel
+	GetChannelPinnedPostCountFromCache(channelId string) int64
+	GetChannelPinnedPostCount(channelId string, allowFromCache bool) StoreChannel
 	GetPinnedPosts(channelId string) StoreChannel
 	RemoveMember(channelId string, userId string) StoreChannel
 	PermanentDeleteMembersByUser(userId string) StoreChannel
