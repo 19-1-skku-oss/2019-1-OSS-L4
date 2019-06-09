@@ -1722,6 +1722,26 @@ func (s SqlChannelStore) GetChannelPinnedPostCount(channelId string, allowFromCa
 	})
 }
 
+func (s SqlChannelStore) GetChannelPinnedPostCountFromCache(channelId string) int64 {
+	if cacheItem, ok := channelPinnedPostCountsCache.Get(channelId); ok {
+		if s.metrics != nil {
+			s.metrics.IncrementMemCacheHitCounter("Channel Pinned Post Counts")
+		}
+		return cacheItem.(int64)
+	}
+
+	if s.metrics != nil {
+		s.metrics.IncrementMemCacheMissCounter("Channel Pinned Post Counts")
+	}
+
+	result := <-s.GetChannelPinnedPostCount(channelId, true)
+	if result.Err != nil {
+		return 0
+	}
+
+	return result.Data.(int64)
+}
+
 
 func (s SqlChannelStore) RemoveMember(channelId string, userId string) store.StoreChannel {
 	return store.Do(func(result *store.StoreResult) {
