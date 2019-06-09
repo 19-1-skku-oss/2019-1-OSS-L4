@@ -466,7 +466,7 @@ func getChannelStats(c *Context, w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	pinnedPostCount, err := c.App.GetPinnedPostCount(c.Params.ChannelId)
+	pinnedPostCount, err := c.App.GetChannelPinnedPostCount(c.Params.ChannelId)
 	if err != nil {
 		c.Err = err
 		return

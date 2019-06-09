@@ -1686,7 +1686,7 @@ func (s SqlChannelStore) GetMemberCount(channelId string, allowFromCache bool) s
 	})
 }
 
-func (s SqlChannelStore) GetPinnedPostCount(channelId string, allowFromCache bool) store.StoreChannel {
+func (s SqlChannelStore) GetChannelPinnedPostCount(channelId string, allowFromCache bool) store.StoreChannel {
 	return store.Do(func(result *store.StoreResult) {
 		if allowFromCache {
 			if cacheItem, ok := channelPinnedPostCountsCache.Get(channelId); ok {
@@ -1711,7 +1711,7 @@ func (s SqlChannelStore) GetPinnedPostCount(channelId string, allowFromCache boo
 				AND DeleteAt = 0 ORDER BY CreateAt ASC`, map[string]interface{}{"ChannelId": channelId})
 
 		if err != nil {
-			result.Err = model.NewAppError("SqlChannelStore.GetPinnedPostCount", "store.sql_channel.get_pinned_post_count.app_error", nil, "channel_id="+channelId+", "+err.Error(), http.StatusInternalServerError)
+			result.Err = model.NewAppError("SqlChannelStore.GetChanelPinnedPostCount", "store.sql_channel.get_pinned_post_count.app_error", nil, "channel_id="+channelId+", "+err.Error(), http.StatusInternalServerError)
 			return
 		}
 		result.Data = count
