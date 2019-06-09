@@ -3964,7 +3964,7 @@ i[
   },
   {
     "id": "model.channel_member.is_valid.channel_id.app_error",
-    "translation": "Invalid channel id"
+    "translation": "잘못된 채널 ID"
   },
   {
     "id": "model.channel_member.is_valid.email_value.app_error",
@@ -3992,7 +3992,7 @@ i[
   },
   {
     "id": "model.client.connecting.app_error",
-    "translation": "We encountered an error while connecting to the server"
+    "translation": "서버에 접속하는 동안 오류가 발생했습니다."
   },
   {
     "id": "model.client.create_emoji.emoji.app_error",
@@ -4020,7 +4020,7 @@ i[
   },
   {
     "id": "model.client.read_file.app_error",
-    "translation": "We encountered an error while finding user profiles"
+    "translation": "사용자 프로필을 찾는 동안 오류가 발생했습니다."
   },
   {
     "id": "model.client.set_profile_user.no_file.app_error",
