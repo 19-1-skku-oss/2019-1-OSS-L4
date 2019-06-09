@@ -2,7 +2,7 @@
 layout: post
 title:  "Contribution Checklist"
 author: seunghyeon
-categories: [ Code Contribution ]
+categories: [ Contribution Guideline ]
 image: assets/images/4.jpg
 ---
 
