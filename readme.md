@@ -18,7 +18,7 @@ kim95175@gmail.com / kim95175
 코드 리뷰 및 피드백
 
 김준태 2017314886  
-software3.skku@gamil.com / JTzzang
+software3.skku@gamil.com / `JTzzang`
 번역 및 피드백 
 
 이채현 2018312543  
