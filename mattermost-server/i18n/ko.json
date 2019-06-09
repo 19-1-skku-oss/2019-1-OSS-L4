@@ -4072,11 +4072,11 @@ i[
   },
   {
     "id": "model.cluster.is_valid.hostname.app_error",
-    "translation": "Hostname must be set"
+    "translation": "호스트명이 설정되어야 합니다."
   },
   {
     "id": "model.cluster.is_valid.id.app_error",
-    "translation": "잘못된 ID"
+    "translation": "잘못된 ID 입니다."
   },
   {
     "id": "model.cluster.is_valid.last_ping_at.app_error",
@@ -4084,11 +4084,11 @@ i[
   },
   {
     "id": "model.cluster.is_valid.name.app_error",
-    "translation": "ClusterName must be set"
+    "translation": "ClusterName 이 설정되어야 합니다."
   },
   {
     "id": "model.cluster.is_valid.type.app_error",
-    "translation": "Type must be set"
+    "translation": "타입이 설정되어야 합니다."
   },
   {
     "id": "model.command.is_valid.create_at.app_error",
@@ -4096,31 +4096,31 @@ i[
   },
   {
     "id": "model.command.is_valid.description.app_error",
-    "translation": "잘못된 설명"
+    "translation": "잘못된 설명입니다."
   },
   {
     "id": "model.command.is_valid.display_name.app_error",
-    "translation": "잘못된 형식"
+    "translation": "잘못된 형식입니다."
   },
   {
     "id": "model.command.is_valid.id.app_error",
-    "translation": "잘못된 ID"
+    "translation": "잘못된 ID 입니다."
   },
   {
     "id": "model.command.is_valid.method.app_error",
-    "translation": "Invalid Method"
+    "translation": "잘못된 Method 입니다."
   },
   {
     "id": "model.command.is_valid.team_id.app_error",
-    "translation": "잘못된 팀 ID"
+    "translation": "잘못된 팀 ID 입니다."
   },
   {
     "id": "model.command.is_valid.token.app_error",
-    "translation": "잘못된 토큰"
+    "translation": "잘못된 토큰입니다."
   },
   {
     "id": "model.command.is_valid.trigger.app_error",
-    "translation": "Invalid trigger"
+    "translation": "잘못된 trigger 입니다."
   },
   {
     "id": "model.command.is_valid.update_at.app_error",
@@ -4128,7 +4128,7 @@ i[
   },
   {
     "id": "model.command.is_valid.url.app_error",
-    "translation": "잘못된 URL"
+    "translation": "잘못된 URL 입니다."
   },
   {
     "id": "model.command.is_valid.url_http.app_error",
@@ -4136,15 +4136,15 @@ i[
   },
   {
     "id": "model.command.is_valid.user_id.app_error",
-    "translation": "잘못된 사용자 ID"
+    "translation": "잘못된 사용자 ID 입니다."
   },
   {
     "id": "model.command_hook.channel_id.app_error",
-    "translation": "잘못된 채널 ID"
+    "translation": "잘못된 채널 ID 입니다."
   },
   {
     "id": "model.command_hook.command_id.app_error",
-    "translation": "Invalid command id"
+    "translation": "잘못된 명령어 ID 입니다."
   },
   {
     "id": "model.command_hook.create_at.app_error",
@@ -4152,7 +4152,7 @@ i[
   },
   {
     "id": "model.command_hook.id.app_error",
-    "translation": "Invalid command hook id"
+    "translation": "잘못된 명령어 hook ID 입니다."
   },
   {
     "id": "model.command_hook.parent_id.app_error",
