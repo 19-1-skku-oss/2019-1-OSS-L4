@@ -4,7 +4,7 @@
     <ul class="list-categories">				
         {% for category in site.categories %}               
             <li>
-                <a class="text-dark" href="{{site.baseurl}}/categories.html">{{ category[0] }} ({{ category[1].size }})</a>  
+                <a class="text-dark" href="{{site.baseurl}}/categories.html#{{ category[0] | downcase }}">{{ category[0] }} ({{ category[1].size }})</a>  
             </li>      
         {% endfor %}   
     </ul>
