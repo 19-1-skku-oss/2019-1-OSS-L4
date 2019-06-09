@@ -10,11 +10,11 @@ https://19-1-skku-oss.github.io/2019-1-OSS-L4/
 
 # 팀 구성원
 조우림(팀장) 2017312860  
-2680v4@gmail.com / jkl5616  
+2680v4@gmail.com / `jkl5616`  
 팀장. 팀 홈페이지 코드 관리, 팀원들 참여 상황 관리, 코드 기여
 
 김승현 2014310279  
-kim95175@gmail.com / kim95175  
+kim95175@gmail.com / `kim95175`  
 코드 리뷰 및 피드백
 
 김준태 2017314886  
@@ -22,11 +22,11 @@ software3.skku@gamil.com / `JTzzang` <br>
 번역 및 피드백 
 
 이채현 2018312543  
-eyeoojo@gmail.com / chyeon  
+eyeoojo@gmail.com / `chyeon`  
 이슈 리포트 및 번역
 
 조영성 2014312738  
-choys0401@naver.com / choys0401  
+choys0401@naver.com / `choys0401`  
 번역 및 버그 확인
 
 # Mattermost
