@@ -4840,7 +4840,7 @@ i[
   },
   {
     "id": "model.post.is_valid.channel_id.app_error",
-    "translation": "Invalid channel id"
+    "translation": "잘못된 채널 ID "
   },
   {
     "id": "model.post.is_valid.create_at.app_error",
@@ -4864,11 +4864,11 @@ i[
   },
   {
     "id": "model.post.is_valid.msg.app_error",
-    "translation": "Invalid message"
+    "translation": "잘못된 메시지"
   },
   {
     "id": "model.post.is_valid.original_id.app_error",
-    "translation": "Invalid original id"
+    "translation": "잘못된 기존 ID"
   },
   {
     "id": "model.post.is_valid.parent_id.app_error",
@@ -4900,7 +4900,7 @@ i[
   },
   {
     "id": "model.preference.is_valid.category.app_error",
-    "translation": "Invalid category"
+    "translation": "잘못된 카테고리"
   },
   {
     "id": "model.preference.is_valid.id.app_error",
@@ -4956,7 +4956,7 @@ i[
   },
   {
     "id": "model.team.is_valid.email.app_error",
-    "translation": "Invalid email"
+    "translation": "잘못된 이메일"
   },
   {
     "id": "model.team.is_valid.id.app_error",
@@ -5216,7 +5216,7 @@ i[
   },
   {
     "id": "store.sql_bot.update.updating.app_error",
-    "translation": "We encountered an error updating the app"
+    "translation": "앱을 업데이트 할 수 없습니다."
   },
   {
     "id": "store.sql_channel.analytics_deleted_type_count.app_error",
@@ -5256,7 +5256,7 @@ i[
   },
   {
     "id": "store.sql_channel.get.find.app_error",
-    "translation": "We encountered an error finding the channel"
+    "translation": "채널을 찾지 못했습니다."
   },
   {
     "id": "store.sql_channel.get_all.app_error",
@@ -5268,7 +5268,7 @@ i[
   },
   {
     "id": "store.sql_channel.get_by_name.missing.app_error",
-    "translation": "Channel does not exist"
+    "translation": "채널이 존재하지 않습니다."
   },
   {
     "id": "store.sql_channel.get_by_scheme.app_error",
@@ -5332,11 +5332,11 @@ i[
   },
   {
     "id": "store.sql_channel.get_members.app_error",
-    "translation": "Unable to add direct channel members"
+    "translation": "개인 채널 멤버로 추가할 수 없습니다."
   },
   {
     "id": "store.sql_channel.get_members_by_ids.app_error",
-    "translation": "Unable to add direct channel members"
+    "translation": "개인 채널 멤버로 추가할 수 없습니다."
   },
   {
     "id": "store.sql_channel.get_more_channels.get.app_error",
@@ -5528,7 +5528,7 @@ i[
   },
   {
     "id": "store.sql_channel.search.app_error",
-    "translation": "We encountered an error updating the channel"
+    "translation": "채널 업데이트에 실패하였습니다"
   },
   {
     "id": "store.sql_channel.set_delete_at.commit_transaction.app_error",
@@ -5568,7 +5568,7 @@ i[
   },
   {
     "id": "store.sql_channel.update.updating.app_error",
-    "translation": "We encountered an error updating the channel"
+    "translation": "채널 업데이트에 실패하였습니다"
   },
   {
     "id": "store.sql_channel.update.upsert_public_channel.app_error",
@@ -5580,7 +5580,7 @@ i[
   },
   {
     "id": "store.sql_channel.update_member.app_error",
-    "translation": "We encountered an error updating the channel member"
+    "translation": "채널 멤버 업데이트를 할 수 없습니다."
   },
   {
     "id": "store.sql_channel_member_history.get_users_in_channel_during.app_error",
@@ -5604,7 +5604,7 @@ i[
   },
   {
     "id": "store.sql_cluster_discovery.delete.app_error",
-    "translation": "Failed to delete"
+    "translation": "삭제하지 못 했습니다."
   },
   {
     "id": "store.sql_cluster_discovery.exists.app_error",
@@ -5816,7 +5816,7 @@ i[
   },
   {
     "id": "store.sql_license.save.app_error",
-    "translation": "We encountered an error saving the license"
+    "translation": "라이선스를 저장하는데 오류가 발생했습니다. "
   },
   {
     "id": "store.sql_oauth.delete.commit_transaction.app_error",
@@ -5848,7 +5848,7 @@ i[
   },
   {
     "id": "store.sql_oauth.get_app.finding.app_error",
-    "translation": "We encountered an error finding the app"
+    "translation": "앱을 찾는 동안 오류가 발생했습니다."
   },
   {
     "id": "store.sql_oauth.get_app_by_user.find.app_error",
@@ -5856,7 +5856,7 @@ i[
   },
   {
     "id": "store.sql_oauth.get_apps.find.app_error",
-    "translation": "An error occurred while finding the OAuth2 Apps"
+    "translation": "OAuth2 앱을 찾는 동안 오류가 발생했습니다."
   },
   {
     "id": "store.sql_oauth.get_auth_data.find.app_error",
@@ -5888,7 +5888,7 @@ i[
   },
   {
     "id": "store.sql_oauth.save_app.existing.app_error",
-    "translation": "Must call update for exisiting app"
+    "translation": "기존 앱을 업데이트 해야합니다."
   },
   {
     "id": "store.sql_oauth.save_app.save.app_error",
@@ -5908,7 +5908,7 @@ i[
   },
   {
     "id": "store.sql_oauth.update_app.finding.app_error",
-    "translation": "We encountered an error finding the app"
+    "translation": "앱을 찾을 수 없습니다."
   },
   {
     "id": "store.sql_oauth.update_app.update.app_error",
@@ -5916,7 +5916,7 @@ i[
   },
   {
     "id": "store.sql_oauth.update_app.updating.app_error",
-    "translation": "We encountered an error updating the app"
+    "translation": "앱을 업데이트 할 수 없습니다."
   },
   {
     "id": "store.sql_plugin_store.delete.app_error",
