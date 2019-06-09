@@ -3480,11 +3480,11 @@ i[
   },
   {
     "id": "ent.elasticsearch.not_started.error",
-    "translation": "Elasticsearch is not started"
+    "translation": "Elasticsearch 가 시작되지 않음"
   },
   {
     "id": "ent.elasticsearch.purge_indexes.delete_failed",
-    "translation": "Failed to delete Elasticsearch index"
+    "translation": "Elasticsearch 인덱스를 지울 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.search_posts.disabled",
@@ -3496,35 +3496,35 @@ i[
   },
   {
     "id": "ent.elasticsearch.search_posts.search_failed",
-    "translation": "Search failed to complete"
+    "translation": "검색할 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.search_posts.unmarshall_post_failed",
-    "translation": "Failed to decode search results"
+    "translation": "검색결과를 불러올 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.start.already_started.app_error",
-    "translation": "Elasticsearch is already started"
+    "translation": "Elasticsearch가 이미 시작되었습니다."
   },
   {
     "id": "ent.elasticsearch.start.create_bulk_processor_failed.app_error",
-    "translation": "Failed to create Elasticsearch bulk processor"
+    "translation": "Elasticsearch bulk 프로세서를 생성할 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.start.start_bulk_processor_failed.app_error",
-    "translation": "Failed to start Elasticsearch bulk processor"
+    "translation": "Elasticsearch bulk 프로세서를 시작할 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
-    "translation": "Elasticsearch is already stopped"
+    "translation": "Elasticsearch가 이미 중지되었습니다."
   },
   {
     "id": "ent.elasticsearch.test_config.connect_failed",
-    "translation": "Connecting to Elasticsearch server failed."
+    "translation": "Elasticsearch 서버와의 연결이 실패하였습니다."
   },
   {
     "id": "ent.elasticsearch.test_config.indexing_disabled.error",
-    "translation": "Elasticsearch is disabled."
+    "translation": "Elasticsearch를 이용할 수 없습니다."
   },
   {
     "id": "ent.elasticsearch.test_config.license.error",
