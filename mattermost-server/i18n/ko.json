@@ -3220,15 +3220,15 @@ i[
   },
   {
     "id": "app.plugin.disabled.app_error",
-    "translation": "Plugins have been disabled. Please check your logs for details."
+    "translation": "플러그인 사용 불가. 상세 정보를 위해서는 log 를 확인하세요."
   },
   {
     "id": "app.plugin.extract.app_error",
-    "translation": "Encountered error extracting plugin"
+    "translation": "추출 플러그인 오류"
   },
   {
     "id": "app.plugin.filesystem.app_error",
-    "translation": "Encountered filesystem error"
+    "translation": "파일 시스템 오류"
   },
   {
     "id": "app.plugin.get_cluster_plugin_statuses.app_error",
@@ -3244,19 +3244,19 @@ i[
   },
   {
     "id": "app.plugin.install.app_error",
-    "translation": "Unable to install plugin."
+    "translation": "플러그인을 설치할 수 없음."
   },
   {
     "id": "app.plugin.install_id.app_error",
-    "translation": "Unable to install plugin. A plugin with the same ID is already installed."
+    "translation": "플러그인을 설치할 수 없음. 같은 ID를 가진 플러그인이 이미 설치되어 있습니다."
   },
   {
     "id": "app.plugin.install_id_failed_remove.app_error",
-    "translation": "Unable to install plugin. A plugin with the same ID is already installed and failed to be removed."
+    "translation": "플러그인을 설치할 수 없습니다. 같은 ID를 가진 플러그인이 이미 설치되어 있으며 제거할 수 없습니다."
   },
   {
     "id": "app.plugin.invalid_id.app_error",
-    "translation": "Plugin Id must be at least {{.Min}} characters, at most {{.Max}} characters and match {{.Regex}}."
+    "translation": "플러그인 ID는 최소 {{.Min}}, 최대 {{.Max}} 글자이고 {{.Regex}}와 매치되어야 합니다."
   },
   {
     "id": "app.plugin.manifest.app_error",
@@ -3268,7 +3268,7 @@ i[
   },
   {
     "id": "app.plugin.not_installed.app_error",
-    "translation": "Plugin is not installed"
+    "translation": "플러그인이 설치되어 있지 않습니다."
   },
   {
     "id": "app.plugin.remove.app_error",
@@ -3276,7 +3276,7 @@ i[
   },
   {
     "id": "app.plugin.upload_disabled.app_error",
-    "translation": "Plugins and/or plugin uploads have been disabled."
+    "translation": "플러그인 과/혹은 플러그인 업로드가 불가합니다."
   },
   {
     "id": "app.role.check_roles_exist.role_not_found",
@@ -3288,7 +3288,7 @@ i[
   },
   {
     "id": "app.schemes.is_phase_2_migration_completed.not_completed.app_error",
-    "translation": "This API endpoint is not accessible as required migrations have not yet completed."
+    "translation": "This API endpoint is not accessible as require:d migrations have not yet completed."
   },
   {
     "id": "app.submit_interactive_dialog.json_error",
