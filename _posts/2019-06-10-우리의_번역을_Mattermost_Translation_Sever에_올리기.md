@@ -13,10 +13,10 @@ author: young
 
 # 로컬에서의 번역 반영하기
 저희가 수정한 파일은 3개입니다.  
-mattermost-server/i18n/ko.json  
-mattermost-webapp/i18n/ko.json  
-mattermost-mobile/assets/base/i18n/ko.json  
-이 중 mattermost-server/i18n/ko.json 파일은 json 구조가 다른 두 파일과 다르며 id를 명시하고 있고, 다른 두 파일은 "id":"translation" 형태로 되어 있습니다.  
+`mattermost-server/i18n/ko.json`  
+`mattermost-webapp/i18n/ko.json`  
+`mattermost-mobile/assets/base/i18n/ko.json`  
+이 중 `mattermost-server/i18n/ko.json` 파일은 json 구조가 다른 두 파일과 다르며 id를 명시하고 있고, 다른 두 파일은 "id":"translation" 형태로 되어 있습니다.  
 Mattermost Translation Server에 우리의 번역을 반영하기 위해서는 이 id가 필요합니다.  
 ![image](/2019-1-OSS-L4/images/2019-06-10-young/2.PNG)  
 먼저 번역을 반영할 문장이 있는 파일에서 id를 복사합니다.  
