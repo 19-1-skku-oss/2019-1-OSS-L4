@@ -6928,7 +6928,7 @@ i[
   },
   {
     "id": "utils.file.remove_directory.s3.app_error",
-    "translation": "Encountered an error removing directory from S3."
+    "translation": "S3 에서 폴더를 지우는 도중 오류가 발생했습니다."
   },
   {
     "id": "utils.file.remove_file.local.app_error",
@@ -6936,19 +6936,19 @@ i[
   },
   {
     "id": "utils.file.remove_file.s3.app_error",
-    "translation": "Encountered an error removing file from S3."
+    "translation": "S3 에서 파일을 제거하는 도중 오류가 발생했습니다."
   },
   {
     "id": "utils.mail.connect_smtp.helo.app_error",
-    "translation": "Failed to set HELO"
+    "translation": "HELO 를 설정할 수 없습니다."
   },
   {
     "id": "utils.mail.connect_smtp.open.app_error",
-    "translation": "Failed to open connection"
+    "translation": "연결을 공개할 수 없습니다."
   },
   {
     "id": "utils.mail.connect_smtp.open_tls.app_error",
-    "translation": "Failed to open TLS connection"
+    "translation": "TLS 연결을 공개할 수 없습니다."
   },
   {
     "id": "utils.mail.new_client.auth.app_error",
@@ -6960,7 +6960,7 @@ i[
   },
   {
     "id": "utils.mail.send_mail.close.app_error",
-    "translation": "Failed to close connection to SMTP server"
+    "translation": "SMTP 서버와의 연결을 중단할 수 없습니다."
   },
   {
     "id": "utils.mail.send_mail.from_address.app_error",
@@ -6968,11 +6968,11 @@ i[
   },
   {
     "id": "utils.mail.send_mail.msg.app_error",
-    "translation": "Failed to write email message"
+    "translation": "이메일 메세지를 쓸 수 없습니다."
   },
   {
     "id": "utils.mail.send_mail.msg_data.app_error",
-    "translation": "Failed to add email messsage data"
+    "translation": "이메일 메시지 자료를 추가할 수 없습니다."
   },
   {
     "id": "utils.mail.send_mail.to_address.app_error",
