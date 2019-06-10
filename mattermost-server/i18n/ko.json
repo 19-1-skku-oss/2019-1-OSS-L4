@@ -1178,7 +1178,7 @@ i[
   },
   {
     "id": "api.file.test_connection.s3.bucket_exists.app_error",
-    "translation": "버킷이 존재하는지 확인하는 동안 에러가 발생했습니다."
+    "translation": "버킷이 존재하는지 확인하는 동안 오류가 발생했습니다."
   },
   {
     "id": "api.file.test_connection.s3.connection.app_error",
@@ -1234,7 +1234,7 @@ i[
   },
   {
     "id": "api.file.write_file_locally.writing.app_error",
-    "translation": "로컬 서버 저장소에 쓰는 도중 에러가 발생했습니다."
+    "translation": "로컬 서버 저장소에 쓰는 도중 오류가 발생했습니다."
   },
   {
     "id": "api.incoming_webhook.disabled.app_error",
@@ -1338,7 +1338,7 @@ i[
   },
   {
     "id": "api.oauth.get_access_token.internal.app_error",
-    "translation": "server_error: 데이터베이스를 엑세스하는 동안 내부 서버에러가 발생되었습니다."
+    "translation": "server_error: 데이터베이스를 엑세스하는 동안 내부 서버 오류가 발생했습니다."
   },
   {
     "id": "api.oauth.get_access_token.internal_saving.app_error",
@@ -1478,7 +1478,7 @@ i[
   },
   {
     "id": "api.post.do_action.action_integration.app_error",
-    "translation": "통합 기능 작업 에러"
+    "translation": "통합 기능 작업 오류"
   },
   {
     "id": "api.post.get_message_for_notification.files_sent",
@@ -3284,7 +3284,7 @@ i[
   },
   {
     "id": "app.save_config.app_error",
-    "translation": "An error occurred saving the configuration"
+    "translation": "설정을 저장하는 중에 오류가 발생했습니다."
   },
   {
     "id": "app.schemes.is_phase_2_migration_completed.not_completed.app_error",
@@ -4828,7 +4828,7 @@ i[
   },
   {
     "id": "model.plugin_command.error.app_error",
-    "translation": "An error occurred while trying to execute this command."
+    "translation": "명령을 실행하는 중 오류가 발생했습니다."
   },
   {
     "id": "model.plugin_key_value.is_valid.key.app_error",
@@ -5808,7 +5808,7 @@ i[
   },
   {
     "id": "store.sql_license.get.app_error",
-    "translation": "We encountered an error getting the license"
+    "translation": "라이선스를 가져오는 중 오류가 발생했습니다. "
   },
   {
     "id": "store.sql_license.get.missing.app_error",
@@ -5900,7 +5900,7 @@ i[
   },
   {
     "id": "store.sql_oauth.update_access_data.app_error",
-    "translation": "접근 토큰을 업데이트하다 에러가 발생했습니다"
+    "translation": "접근 토큰을 업데이트하다 오류가 발생했습니다"
   },
   {
     "id": "store.sql_oauth.update_app.find.app_error",
@@ -6900,7 +6900,7 @@ i[
   },
   {
     "id": "utils.config.save_config.saving.app_error",
-    "translation": "An error occurred while saving the file to {{.Filename}}"
+    "translation": "A{{.Filename}}에 파일을 저장하던 중 오류가 발생했습니다."
   },
   {
     "id": "utils.config.supported_available_locales.app_error",
@@ -6916,7 +6916,7 @@ i[
   },
   {
     "id": "utils.file.list_directory.local.app_error",
-    "translation": "로컬 서버 저장소를 읽는 도중 에러가 발생했습니다."
+    "translation": "로컬 서버 저장소를 읽는 도중 오류가 발생했습니다."
   },
   {
     "id": "utils.file.list_directory.s3.app_error",
@@ -6924,7 +6924,7 @@ i[
   },
   {
     "id": "utils.file.remove_directory.local.app_error",
-    "translation": "로컬 서버 저장소를 읽는 도중 에러가 발생했습니다."
+    "translation": "로컬 서버 저장소를 읽는 도중 오류가 발생했습니다."
   },
   {
     "id": "utils.file.remove_directory.s3.app_error",
@@ -6932,7 +6932,7 @@ i[
   },
   {
     "id": "utils.file.remove_file.local.app_error",
-    "translation": "로컬 서버 저장소를 읽는 도중 에러가 발생했습니다."
+    "translation": "로컬 서버 저장소를 읽는 도중 오류가 발생했습니다."
   },
   {
     "id": "utils.file.remove_file.s3.app_error",
