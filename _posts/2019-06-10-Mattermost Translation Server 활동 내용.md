@@ -33,9 +33,9 @@ Mattermost는 자체 Translation Server를 이용해서 번역을 하기 때문�
 ### 번역한 것이 반영되어 수정된 것을 확인할 수 있었다.
 ![20190610_020131](https://user-images.githubusercontent.com/49435910/59161921-af240380-8b23-11e9-9765-834487253014.png)
 
-* ## 나의 활동 확인
+* ## 활동 확인
 
-### Translation Server에서 나의 번역활동을 그래프와 통계로 확인할 수 있다.
+### Translation Server에서 의 번역활동을 그래프와 통계로 확인할 수 있다.
 ![KakaoTalk_20190610_010524942](https://user-images.githubusercontent.com/49435910/59161940-ebeffa80-8b23-11e9-8664-fc24b8153e8f.png)
 ![20190610_020714](https://user-images.githubusercontent.com/49435910/59161990-8a7c5b80-8b24-11e9-9ae8-a922dfc253d8.png)
 ![20190610_020515](https://user-images.githubusercontent.com/49435910/59161961-34a7b380-8b24-11e9-93c0-073082663c3a.png)
